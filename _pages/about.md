@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Shuang Deng"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -10,7 +10,7 @@ redirect_from:
 
 About me
 ======
-Hi, I am currently a fourth-year PhD student at [National Laboratotry of Pattern Recognition](http://nlpr-web.ia.ac.cn/cn/index.html)(NLPR), [Institute of Automation](http://www.ia.cas.cn/), Chinese Academy of Sciences(CASIA), under the supervision of [Qiulei Dong](http://vision.ia.ac.cn/Faculty/qldong/index.htm). Previously, I received my B.Eng degree in communication engineering from Huazhong University of Science and Technology in 2017. Here are my CVs [CN](https://ds0529.github.io/files/ShuangDengCV-CN.pdf).
+Hi, I am currently a fourth-year PhD student at [National Laboratotry of Pattern Recognition](http://nlpr-web.ia.ac.cn/cn/index.html)(NLPR), [Institute of Automation](http://www.ia.cas.cn/), Chinese Academy of Sciences(CASIA), under the supervision of [Qiulei Dong](http://vision.ia.ac.cn/Faculty/qldong/index.htm). Previously, I received my B.Eng degree in communication engineering from Huazhong University of Science and Technology in 2017. Here are my CV [CN](https://ds0529.github.io/files/ShuangDengCV-CN.pdf).
 
 My current research interests generally focus on 3D point cloud semantic segmentation and measuring relative poses of satellites.
 
