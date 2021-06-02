@@ -87,8 +87,8 @@ author:
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com.hk/citations?user=kgOiYDoAAAAJ&hl=zh-CN"
-  email            : "dsengshuangZ@163.com"
-  # email            : "shuang.deng@nlpr.ia.ac.cn"
+  # email            : "dsengshuang@163.com"
+  email            : "shuang.deng@nlpr.ia.ac.cn"
   researchgate     : "https://www.researchgate.net/profile/Deng_Shuang2"
   uri              :
   bitbucket        :
@@ -210,15 +210,15 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+#   # _teaching
+#   - scope:
+#       path: ""
+#       type: teaching
+#     values:
+#       layout: single
+#       author_profile: true
+#       share: true
+#       comments: true
   # _publications
   - scope:
       path: ""
@@ -228,23 +228,23 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+#   # _portfolio
+#   - scope:
+#       path: ""
+#       type: portfolio
+#     values:
+#       layout: single
+#       author_profile: true
+#       share: true
+#       comment: true
+#   # _talks
+#   - scope:
+#       path: ""
+#       type: talks
+#     values:
+#       layout: talk
+#       author_profile: true
+#       share: true
 
 # Sass/SCSS
 sass:
