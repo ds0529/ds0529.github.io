@@ -1,10 +1,8 @@
 ---
 layout: archive
-permalink: /publications/
 title: "Publications"
+permalink: /publications/
 author_profile: true
-redirect_from:
-  - /wordpress/publications/
 ---
 
 {% if author.googlescholar %}
