@@ -21,7 +21,7 @@ News
 * [2021/05/16] &nbsp; One paper is accepted in IEEE Signal Processing Letters (SPL).
 * [2021/05/11] &nbsp; One patent is accepted.
 * [2021/03/06] &nbsp; One paper is accepted in IEEE International Conference on Multimedia and Expo (ICME).
-* [2020/12/25] &nbsp; One chinese paper is accepted in Aerospace Control and Application (ACA).
+* [2020/12/25] &nbsp; One chinese paper is accepted in Aerospace Control and Application (空间控制技术与应用, ACA).
 
 <br/>
 
@@ -88,7 +88,7 @@ ___
     <p>
       <strong>一种基于双目视觉的卫星相对位姿测量方法</strong><br/>
       <u>邓爽</u>, 王波, 董秋雷<br/>
-      Accepted by Aerospace Control and Application (ACA), 2020.<br/>
+      Accepted by Aerospace Control and Application (空间控制技术与应用, ACA), 2020. (中文核心)<br/>
      [<a href="https://ds0529.github.io/files/ACA2020.pdf">PDF</a>]
     </p>
   </div>
