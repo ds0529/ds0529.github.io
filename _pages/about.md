@@ -14,13 +14,14 @@ Hi, I am currently a fourth-year PhD student at [National Laboratotry of Pattern
 
 My current research interests generally focus on 3D point cloud semantic segmentation and measuring relative poses of satellites.
 
+<br/>
+
 News
 ======
 * [2021/05/16] &nbsp; One paper is accepted in IEEE Signal Processing Letters (SPL).
 * [2021/05/11] &nbsp; One patent is accepted.
 * [2021/03/06] &nbsp; One paper is accepted in IEEE International Conference on Multimedia and Expo (ICME).
 * [2020/12/25] &nbsp; One chinese paper is accepted in Aerospace Control and Application (ACA).
-
 
 <br/>
 
@@ -91,6 +92,8 @@ ___
     </p>
   </div>
 </div>
+
+<br/>
 
 Personal
 ======
