@@ -71,7 +71,8 @@ ___
       <strong>基于目标物对接环的对接设备位姿调整方法、系统</strong><br/>
       董秋雷, <u>邓爽</u>, 王波<br/>
       Accepted patent, 2021.<br/>
-     [<a href="https://ds0529.github.io/files/Patent2021.pdf">PDF</a>]
+     [<a href="https://ds0529.github.io/files/Patent2021.pdf">PDF</a>]<br/>
+      <br/>
     </p>
   </div>
 </div>
