@@ -29,7 +29,7 @@ Recent research
 ======
 <div class="row">
   <div class="column left">
-    <img align="left" width="22%" src="https://ds0529.github.io/images/SPL2021.png?raw=true">  
+    <img align="left" width="22%" src="https://ds0529.github.io/images/SPL2021.png">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
@@ -46,7 +46,7 @@ ___
 
 <div class="row">
   <div class="column left">
-    <img align="left" width="22%" src="https://ds0529.github.io/images/ICME2021.png?raw=true">  
+    <img align="left" width="22%" src="https://ds0529.github.io/images/ICME2021.png">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
@@ -63,7 +63,7 @@ ___
 
 <div class="row">
   <div class="column left">
-    <img align="left" width="22%" src="https://ds0529.github.io/images/Patent2021.png?raw=true">  
+    <img align="left" width="22%" src="https://ds0529.github.io/images/Patent2021.png">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
@@ -80,7 +80,7 @@ ___
 
 <div class="row">
   <div class="column left">
-    <img align="left" width="22%" src="https://ds0529.github.io/images/ACA2020.png?raw=true">  
+    <img align="left" width="22%" src="https://ds0529.github.io/images/ACA2020.png">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
@@ -97,6 +97,5 @@ ___
 
 Personal
 ======
-I have broad interests in reading about philosophy/history/economics.<br/>
-I also love travelling, hiking and many other outdoor activities. Some recent travelling photos are shared below.<br/>
-<img src="https://flywithcloud.github.io/images/travel.jpg?raw=true" alt="Photo" style="width: 40%;" align="center"/>
+I have broad interests in painting and hiking. Some recent paintings are shared below.<br/>
+<img src="https://ds0529.github.io/images/paintings.png" alt="Photo" style="width: 40%;" align="center"/>
