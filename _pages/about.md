@@ -28,7 +28,7 @@ Recent research
 ======
 <div class="row">
   <div class="column left">
-    <img align="left" width="20%" src="https://ds0529.github.io/images/SPL2021.png?raw=true">  
+    <img align="left" width="25%" src="https://ds0529.github.io/images/SPL2021.png?raw=true">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
@@ -45,7 +45,7 @@ ___
 
 <div class="row">
   <div class="column left">
-    <img align="left" width="20%" src="https://ds0529.github.io/images/ICME2021.png?raw=true">  
+    <img align="left" width="25%" src="https://ds0529.github.io/images/ICME2021.png?raw=true">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
@@ -62,7 +62,7 @@ ___
 
 <div class="row">
   <div class="column left">
-    <img align="left" width="20%" src="https://ds0529.github.io/images/Patent2021.png?raw=true">  
+    <img align="left" width="25%" src="https://ds0529.github.io/images/Patent2021.png?raw=true">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
@@ -79,7 +79,7 @@ ___
 
 <div class="row">
   <div class="column left">
-    <img align="left" width="20%" src="https://ds0529.github.io/images/ACA2020.png?raw=true">  
+    <img align="left" width="25%" src="https://ds0529.github.io/images/ACA2020.png?raw=true">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
