@@ -114,6 +114,9 @@
       {% if author.researchgate %}
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
       {% endif %}
+      {% if author.cnki %}
+        <li><a href="{{ author.cnki }}"><i class="fas fa-fw fa-graduation-cap"></i> 知网学者库</a></li>
+      {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
       {% endif %}
