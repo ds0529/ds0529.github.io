@@ -99,4 +99,4 @@ ___
 Personal
 ======
 I have broad interests in painting and hiking. Some recent paintings are shared below.<br/>
-<img src="https://ds0529.github.io/images/paintings.png" alt="Photo" style="width: 40%;" align="center"/>
+<img src="https://ds0529.github.io/images/paintings.png" alt="Photo" style="width: 100%;" align="center"/>
