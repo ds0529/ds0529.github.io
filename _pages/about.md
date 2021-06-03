@@ -28,7 +28,7 @@ Recent research
 ======
 <div class="row">
   <div class="column left">
-    <img align="left" width="20%" src="https://ds0529.github.io/images/SPL2021.png?raw=false">  
+    <img align="left" width="20%" src="https://ds0529.github.io/images/SPL2021.png?raw=true">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
@@ -45,7 +45,7 @@ ___
 
 <div class="row">
   <div class="column left">
-    <img align="left" width="20%" src="https://ds0529.github.io/images/ICME2021.png?raw=false">  
+    <img align="left" width="20%" src="https://ds0529.github.io/images/ICME2021.png?raw=true">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
@@ -53,7 +53,7 @@ ___
       <strong>Rotation Transformation Network: Learning View-Invariant Point Cloud for Classification and Segmentation</strong><br/>
       <u>Shuang Deng</u>, Bo Liu, Qiulei Dong, Zhanyi Hu<br/>
       Accepted by IEEE International Conference on Multimedia and Expo (ICME), 2021. (CCF-B, AR=30%)<br/>
-     [<a href="https://ds0529.github.io/files/ICME2021.pdf">PDF</a>]
+     [<a href="https://ds0529.github.io/files/ICME2021.pdf">PDF</a>]<br/>
     </p>
   </div>
 </div>
@@ -62,7 +62,7 @@ ___
 
 <div class="row">
   <div class="column left">
-    <img align="left" width="20%" src="https://ds0529.github.io/images/Patent2021.png?raw=false">  
+    <img align="left" width="20%" src="https://ds0529.github.io/images/Patent2021.png?raw=true">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
@@ -79,7 +79,7 @@ ___
 
 <div class="row">
   <div class="column left">
-    <img align="left" width="20%" src="https://ds0529.github.io/images/ACA2020.png?raw=false">  
+    <img align="left" width="20%" src="https://ds0529.github.io/images/ACA2020.png?raw=true">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
