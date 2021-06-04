@@ -25,6 +25,9 @@
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
+      {% if author.phone %}
+        <li><a href="{{ author.phone }}"><i class="fas fa-fw fa-phone"></i> Phone: +86 13261803822</a></li>
+      {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
@@ -35,11 +38,20 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       ---
+      {% if author.weixin %}
+        <li><a href="{{ author.weixin }}"><i class="fas fa-fw fa-weixin"></i> Weixin: 13261803822</a></li>
+      {% endif %}
+      {% if author.qq %}
+        <li><a href="{{ author.qq }}"><i class="fas fa-fw fa-weixin"></i> QQ: 1048247193</a></li>
+      {% endif %}
       {% if author.weibo %}
         <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i> Weibo</a></li>
       {% endif %}
       {% if author.bilibili %}
         <li><a href="https://space.bilibili.com/{{ author.bilibili }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> Bilibili</a></li>
+      {% endif %}
+      {% if author.zhihu %}
+        <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fas fa-fw fa-zhihu"></i> Zhihu</a></li>
       {% endif %}
       {% if author.twitter %}
         <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
@@ -97,7 +109,7 @@
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
       {% if author.csdn %}
-        <li><a href="{{ author.csdn }}"><i class="fas fa-fw fa-network-wired"></i> CSDN</a></li>
+        <li><a href="{{ author.csdn }}"><i class="fas fa-fw fa-graduation-cap"></i> CSDN</a></li>
       {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
@@ -112,7 +124,7 @@
         <li><a href="{{ author.semanticscholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Semantic Scholar</a></li>
       {% endif %}
       {% if author.cnki %}
-        <li><a href="{{ author.cnki }}"><i class="fas fa-fw fa-graduation-cap"></i> 知网学者库</a></li>
+        <li><a href="{{ author.cnki }}"><i class="fas fa-fw fa-graduation-cap"></i> CNKI</a></li>
       {% endif %}
       {% if author.bitbucket %}
         <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
