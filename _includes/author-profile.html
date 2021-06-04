@@ -26,10 +26,10 @@
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.phone %}
-        <li><a href="{{ author.phone }}"><i class="fas fa-fw fa-phone"></i> Phone: +86 13261803822</a></li>
+        <li><i class="fas fa-fw fa-phone" aria-hidden="true></i> {{ author.phone }}</li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        <li><i class="fas fa-fw fa-email" aria-hidden="true></i> {{ author.email }}</li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
@@ -39,10 +39,10 @@
       {% endif %}
       ---
       {% if author.weixin %}
-        <li><a href="{{ author.weixin }}"><i class="fab fa-fw fa-weixin"></i> Weixin: 13261803822</a></li>
+        <li><i class="fab fa-fw fa-weixin" aria-hidden="true></i> {{ author.weixin }}</li>
       {% endif %}
       {% if author.qq %}
-        <li><a href="{{ author.qq }}"><i class="fab fa-fw fa-qq"></i> QQ: 1048247193</a></li>
+        <li><i class="fab fa-fw fa-qq" aria-hidden="true></i> {{ author.qq }}</li>
       {% endif %}
       {% if author.weibo %}
         <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i> Weibo</a></li>
