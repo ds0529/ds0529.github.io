@@ -29,7 +29,13 @@
         <li><i class="fas fa-fw fa-phone" aria-hidden="true"></i> {{ author.phone }}</li>
       {% endif %}
       {% if author.email %}
-        <li><i class="fa fa-fw fa-email" aria-hidden="true"></i> {{ author.email }}</li>
+        <li><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email }}</li>
+      {% endif %}
+      {% if author.weixin %}
+        <li><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> {{ author.weixin }}</li>
+      {% endif %}
+      {% if author.qq %}
+        <li><i class="fab fa-fw fa-qq" aria-hidden="true"></i> {{ author.qq }}</li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
@@ -38,12 +44,6 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       ---
-      {% if author.weixin %}
-        <li><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> {{ author.weixin }}</li>
-      {% endif %}
-      {% if author.qq %}
-        <li><i class="fab fa-fw fa-qq" aria-hidden="true"></i> {{ author.qq }}</li>
-      {% endif %}
       {% if author.weibo %}
         <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i> Weibo</a></li>
       {% endif %}
