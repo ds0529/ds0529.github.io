@@ -84,40 +84,44 @@ author:
   avatar           : "profile.png"
   bio              : "Ph.D. Student in ML&CV at Institute of Automation, CAS"
   location         : "Beijing, China"
-  employer         :
-  pubmed           :
-  googlescholar    : "https://scholar.google.com.hk/citations?user=kgOiYDoAAAAJ&hl=zh-CN"
-  # email            : "dsengshuang@163.com"
   email            : "shuang.deng@nlpr.ia.ac.cn"
-  researchgate     : "https://www.researchgate.net/profile/Shuang-Deng-7"
-  semanticscholar  : "https://www.semanticscholar.org/author/Shuang-Deng/46625963"
+  # email            : "dsengshuang@163.com"
+  employer         :
   uri              :
-  bitbucket        :
-  codepen          :
+  
+  weibo            : "1634587277/profile?topnav=1&wvr=6"
+  bilibili         : "8382848"
+  twitter          : "ds0529"
+  facebook         : "dsengshuang"
+  instagram        : "ds0529"
+  steam            : "dsengshuang"
   dribbble         :
   flickr           :
-  facebook         : "dsengshuang"
   foursquare       :
-  github           : "ds0529"
   google_plus      :
   keybase          :
-  instagram        : "ds0529"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0001-5844-1093"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            : "dsengshuang"
   tumblr           :
-  twitter          : "ds0529"
   vine             :
-  weibo            : "1634587277/profile?topnav=1&wvr=6"
   xing             :
   youtube          :
+  
+  github           : "ds0529"
+  googlescholar    : "https://scholar.google.com.hk/citations?user=kgOiYDoAAAAJ&hl=zh-CN"
+  researchgate     : "https://www.researchgate.net/profile/Shuang-Deng-7"
+  orcid            : "https://orcid.org/0000-0001-5844-1093"
+  semanticscholar  : "https://www.semanticscholar.org/author/Shuang-Deng/46625963"
+  cnki             : "https://expert.cnki.net/Expert/Detail/0000001093429687.htm"  
+  pubmed           :
+  bitbucket        :
+  codepen          :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
   wikipedia        :
-  cnki             : "https://expert.cnki.net/Expert/Detail/0000001093429687.htm"
+ 
 
 
 # Reading Files
