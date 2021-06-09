@@ -4,7 +4,7 @@ main:
     url: /publications/
     
     - title: "Message Board"
-    url: 'https://ds0529.github.io/messages/'
+    url: 'https://ds0529.github.io/gitalk_study/'
 
 #   - title: "Talks"
 #     url: /talks/    
