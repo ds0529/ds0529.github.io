@@ -16,17 +16,17 @@
 <body>
     <div id="gitalk-container"></div>
     <script>
-    var gitalk = new Gitalk({
-        clientID: '72f52be9417baadf7ac0',
-        clientSecret: '80b8cbb8bd5b37364807287c3d59b8eaa84efa5d',
-        repo: 'gitalk-comments',
-        owner: 'ds0529',
-        admin:  ['ds0529'],
-        id: location.pathname,      // Ensure uniqueness and len
-        distractionFreeMode: false  // Facebook-like distraction
-        language:'zh-CN', //语言
-    })
-    gitalk.render('gitalk-container')
+        var gitalk = new Gitalk({
+            clientID: '72f52be9417baadf7ac0', // clientID 
+            clientSecret: '80b8cbb8bd5b37364807287c3d59b8eaa84efa5d', // clientSecret
+            repo: 'gitalk-comments', // 评论仓库名
+            owner: 'ds0529',
+            admin: ['ds0529'], // 管理人
+            id: location.pathname, // 返回当前 URL 的路径部分作为id
+            language:'zh-CN', // 语言
+            distractionFreeMode: false  // 无干扰模式
+        })
+        gitalk.render('gitalk-container')
     </script>
 </body>
 </html>
