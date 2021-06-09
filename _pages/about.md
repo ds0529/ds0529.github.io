@@ -100,26 +100,3 @@ Personal
 ======
 I have broad interests in painting, playing video games, DIY and hiking. Some recent paintings are shared below.<br/>
 <img src="https://ds0529.github.io/images/paintings.png" alt="Photo" style="width: 100%;" align="center"/>
-
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-</head>
-<body>
-    You can also find my articles on <a href="https://scholar.google.com.hk/citations?user=kgOiYDoAAAAJ&hl=zh-CN">my Google Scholar profile</a> and <a href="https://www.researchgate.net/profile/Shuang-Deng-7">my ResearchGate profile</a>.
-    <div id="gitalk-container"></div>
-    <script>
-    var gitalk = new Gitalk({
-        clientID: 'GitHub Application Client ID',
-        clientSecret: 'GitHub Application Client Secret',
-        repo: 'GitHub repo',
-        owner: 'GitHub repo owner',
-        admin:  ['GitHub repo owner and collaborators, only these guys can initialize github issues'],
-        id: 'hello',      // Ensure uniqueness and len
-        distractionFreeMode: false  // Facebook-like distraction
-    })
-    gitalk.render('gitalk-container')
-    </script>
-</body>
-</html>
