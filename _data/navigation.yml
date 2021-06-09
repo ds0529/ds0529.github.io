@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "Message Board"
+    url: /messages/
+    
   - title: "Publications"
     url: /publications/
 
