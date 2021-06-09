@@ -1,10 +1,10 @@
 # main links links
-main:
-  - title: "Message Board"
-    url: /messages/
-    
+main:  
   - title: "Publications"
     url: /publications/
+    
+    - title: "Message Board"
+    url: /messages/
 
 #   - title: "Talks"
 #     url: /talks/    
