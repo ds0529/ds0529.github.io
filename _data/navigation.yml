@@ -7,7 +7,7 @@ main:
     url: /year-archive/
     
   - title: "Message Board"
-    url: 'https://ds0529.github.io/gitalk_study/'
+    url: /messages/
 
 #   - title: "Talks"
 #     url: /talks/    
