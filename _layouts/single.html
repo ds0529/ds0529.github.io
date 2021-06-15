@@ -63,6 +63,10 @@ layout: default
         {% endif %}
         {% include page__taxonomy.html %}
       </footer>
+      
+      <footer class="page__meta">
+        {% include post_pagination.html %}
+      </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
       
@@ -77,9 +81,10 @@ layout: default
         });
         </script>
         <br />
+        <br />
+        <br />
       {% endif %}
       
-      {% include post_pagination.html %}
     </div>
   </article>
 
