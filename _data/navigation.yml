@@ -3,6 +3,9 @@ main:
   - title: "Publications"
     url: /publications/
     
+  - title: "Blogs"
+    url: /year-archive/
+    
   - title: "Message Board"
     url: 'https://ds0529.github.io/gitalk_study/'
 
