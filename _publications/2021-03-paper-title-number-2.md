@@ -1,7 +1,7 @@
 ---
 title: "Rotation Transformation Network: Learning View-Invariant Point Cloud for Classification and Segmentation"
 collection: publications
-link: 'https://www.researchgate.net/publication/352119740_Rotation_Transformation_Network_Learning_View-Invariant_Point_Cloud_for_Classification_and_Segmentation'
+link: 'https://ieeexplore.ieee.org/abstract/document/9428265'
 date: 2021-03-06
 venue: 'IEEE International Conference on Multimedia and Expo (ICME)'
 paperurl: 'http://ds0529.github.io/files/ICME2021.pdf'
