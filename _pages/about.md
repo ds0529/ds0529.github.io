@@ -18,6 +18,7 @@ My current research interests generally focus on 3D point cloud semantic segment
 
 News
 ======
+* [2021/07/09] &nbsp; One paper is Submitted to arXiv.
 * [2021/05/16] &nbsp; One paper is accepted in IEEE Signal Processing Letters (SPL).
 * [2021/05/11] &nbsp; One patent is accepted.
 * [2021/03/06] &nbsp; One paper is accepted in IEEE International Conference on Multimedia and Expo (ICME).
@@ -27,6 +28,22 @@ News
 
 Recent research
 ======
+<div class="row">
+  <div class="column left">
+    <img align="left" width="22%" src="https://ds0529.github.io/images/scss-net.png">  
+  </div>
+  <div class="column middle">&nbsp;</div>
+  <div class="column right">
+    <p>
+      <strong>SCSS-Net: Superpoint Constrained Semi-supervised Segmentation Network for 3D Indoor Scenes</strong><br/>
+      <u>Shuang Deng</u>, Qiulei Dong, Bo Liu<br/>
+      Submitted to arXiv, 2021. <br/>
+    </p>
+  </div>
+</div>
+
+___
+
 <div class="row">
   <div class="column left">
     <img align="left" width="22%" src="https://ds0529.github.io/images/SPL2021.png">  
