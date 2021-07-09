@@ -38,6 +38,7 @@ Recent research
       <strong>SCSS-Net: Superpoint Constrained Semi-supervised Segmentation Network for 3D Indoor Scenes</strong><br/>
       <u>Shuang Deng</u>, Qiulei Dong, Bo Liu<br/>
       Submitted to arXiv, 2021. <br/>
+      <br/>
     </p>
   </div>
 </div>
