@@ -30,14 +30,14 @@ Recent research
 ======
 <div class="row">
   <div class="column left">
-    <img align="left" width="22%" src="https://ds0529.github.io/images/scss-net.png">  
+    <img align="left" width="22%" src="https://ds0529.github.io/images/sss-net.png">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
     <p>
-      <strong>SCSS-Net: Superpoint Constrained Semi-supervised Segmentation Network for 3D Indoor Scenes</strong><br/>
-      <u>Shuang Deng</u>, Qiulei Dong, Bo Liu<br/>
-      Submitted to arXiv, 2021. <br/>
+      <strong>Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds</strong><br/>
+      <u>Shuang Deng</u>, Qiulei Dong, Bo Liu, Zhanyi Hu<br/>
+      Submitted to IEEE Conference on Robotics and Automation (ICRA), 2021. (CCF-B)<br/>
       <br/>
     </p>
   </div>
