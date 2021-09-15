@@ -18,7 +18,7 @@ My current research interests generally focus on 3D point cloud semantic segment
 
 News
 ======
-* [2021/09/09] &nbsp; One paper is Submitted to IEEE Conference on Robotics and Automation (ICRA).
+* [2021/09/09] &nbsp; One paper is submitted to IEEE Conference on Robotics and Automation (ICRA).
 * [2021/05/16] &nbsp; One paper is accepted in IEEE Signal Processing Letters (SPL).
 * [2021/05/11] &nbsp; One patent is accepted.
 * [2021/03/06] &nbsp; One paper is accepted in IEEE International Conference on Multimedia and Expo (ICME).
