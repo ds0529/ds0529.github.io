@@ -55,7 +55,7 @@ ___
       <strong>GA-NET: Global Attention Network for Point Cloud Semantic Segmentation</strong><br/>
       <u>Shuang Deng</u>, Qiulei Dong<br/>
       Accepted by IEEE Signal Processing Letters (SPL), 2021. (中科院-II)<br/>
-     [<a href="https://ds0529.github.io/files/SPL2021.pdf">PDF</a>]
+     [<a href="https://ds0529.github.io/files/SPL2021.pdf">PDF</a>] [<a href="https://github.com/ds0529/GA-Net">Code</a>]<br/>
     </p>
   </div>
 </div>
