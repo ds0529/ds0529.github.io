@@ -30,7 +30,7 @@ Recent research
 ======
 <div class="row">
   <div class="column left">
-    <img align="left" width="22%" src="https://ds0529.github.io/images/sss-net.png">  
+    <img align="left" width="22%" src="https://ds0529.github.io/images/ICRA2022.png">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
