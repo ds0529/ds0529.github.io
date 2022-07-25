@@ -35,7 +35,7 @@ Recent research
   <div class="column middle">&nbsp;</div>
   <div class="column right">
     <p>
-      <strong><a href='https://arxiv.org/abs/2107.03601'>Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds</a></strong><br/>
+      <strong><a href='https://ieeexplore.ieee.org/document/9811904'>Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds</a></strong><br/>
       <u>Shuang Deng</u>, Qiulei Dong, Bo Liu, Zhanyi Hu<br/>
       Accepted by IEEE Conference on Robotics and Automation (ICRA), 2022. (CCF-B, AR=43%)<br/>
       [<a href="https://ds0529.github.io/files/ICRA2022.pdf">PDF</a>]<br/>
