@@ -1,7 +1,7 @@
 ---
 title: "Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds"
 collection: publications
-link: 'https://arxiv.org/abs/2107.03601'
+link: 'https://ieeexplore.ieee.org/document/9811904'
 date: 2022-02-01
 venue: 'IEEE Conference on Robotics and Automation (ICRA)'
 paperurl: 'http://ds0529.github.io/files/ICRA2022.pdf'
