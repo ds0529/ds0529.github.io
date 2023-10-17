@@ -10,9 +10,9 @@ redirect_from:
 
 About me
 ======
-Hi, I am currently a fifth-year PhD student at [National Laboratotry of Pattern Recognition](http://nlpr-web.ia.ac.cn/cn/index.html)(NLPR), [Institute of Automation](http://www.ia.cas.cn/), Chinese Academy of Sciences(CASIA), under the supervision of [Qiulei Dong](http://vision.ia.ac.cn/Faculty/qldong/index.htm). Previously, I received my B.Eng degree in communication engineering from Huazhong University of Science and Technology in 2017. Here is my [CV](https://ds0529.github.io/files/ShuangDengCV-CN.pdf).
+Hi, I am an algorithm engineer (2022.09-) in [JD.Com, Inc](http://www.jd.com/). Previously, I received my D.Phil degree (2017.09-2022.09) in [National Laboratotry of Pattern Recognition](http://nlpr-web.ia.ac.cn/cn/index.html)(NLPR), [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn/)(CASIA), under the supervision of [Qiulei Dong](http://vision.ia.ac.cn/Faculty/qldong/index.htm). Prior to CASIA, I obtained my B.Eng degree (2013.09-2017.06) in [communication engineering](http://ei.hust.edu.cn/) from [Huazhong University of Science and Technolog](https://www.hust.edu.cn/). Here is my [CV](https://ds0529.github.io/files/ShuangDengCV-CN.pdf).
 
-My current research interests generally focus on 3D point cloud semantic segmentation and measuring relative poses of satellites.
+My current research interests generally focus on 3D detection of traffic lights, 3D point cloud semantic segmentation, and measuring relative poses of satellites.
 
 <br/>
 
