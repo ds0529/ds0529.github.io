@@ -10,14 +10,15 @@ redirect_from:
 
 About me
 ======
-Hi, I am an algorithm engineer (2022.09-) in [JD.Com, Inc](http://www.jd.com/). Previously, I received my D.Phil degree (2017.09-2022.09) in [National Laboratotry of Pattern Recognition](http://nlpr-web.ia.ac.cn/cn/index.html)(NLPR), [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn/)(CASIA), under the supervision of [Qiulei Dong](http://vision.ia.ac.cn/Faculty/qldong/index.htm). Prior to CASIA, I obtained my B.Eng degree (2013.09-2017.06) in [communication engineering](http://ei.hust.edu.cn/) from [Huazhong University of Science and Technolog](https://www.hust.edu.cn/). Here is my [CV](https://ds0529.github.io/files/ShuangDengCV-CN.pdf).
+Hi, I am an algorithm engineer (2024.06-) in [CRRC](https://www.crrcgc.cc/crrcgc/). Previously, I was an algorithm engineer (2022.09-2024.03) in [JD.Com](http://www.jd.com/). Prior to JD.Com, I received my D.Phil degree (2017.09-2022.09) in [National Laboratotry of Pattern Recognition](http://nlpr-web.ia.ac.cn/cn/index.html)(NLPR), [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn/)(CASIA), under the supervision of [Qiulei Dong](http://vision.ia.ac.cn/Faculty/qldong/index.htm). Prior to CASIA, I obtained my B.Eng degree (2013.09-2017.06) in [communication engineering](http://ei.hust.edu.cn/) from [Huazhong University of Science and Technolog](https://www.hust.edu.cn/). Here is my [CV](https://ds0529.github.io/files/ShuangDengCV-CN.pdf).
 
-My current research interests generally focus on 3D detection of traffic lights, 3D point cloud semantic segmentation, and measuring relative poses of satellites.
+My current research interests generally focus on cutting and packing problems, 3D detection of traffic lights, 3D point cloud semantic segmentation and detection, and measuring relative poses of satellites.
 
 <br/>
 
 News
 ======
+* [2024/06/11] &nbsp; One paper is accepted in IEEE Transactions on Image Processing (TIP).
 * [2022/02/01] &nbsp; One paper is accepted in IEEE Conference on Robotics and Automation (ICRA).
 * [2021/05/16] &nbsp; One paper is accepted in IEEE Signal Processing Letters (SPL).
 * [2021/05/11] &nbsp; One patent is accepted.
@@ -28,6 +29,21 @@ News
 
 Recent research
 ======
+<div class="row">
+  <div class="column left">
+    <img align="left" width="22%">  
+  </div>
+  <div class="column middle">&nbsp;</div>
+  <div class="column right">
+    <p>
+      <strong>Cayley Rotation Averaging: Multiple Camera Averaging Under the Cayley Framework</strong><br/>
+      Qiulei Dong, <u>Shuang Deng</u>, Yuzhen Liu<br/>
+      Accepted by IEEE Transactions on Image Processing (TIP), 2021. (中科院-I)<br/>
+    </p>
+  </div>
+</div>
+
+___
 <div class="row">
   <div class="column left">
     <img align="left" width="22%" src="https://ds0529.github.io/images/ICRA2022.png">  
