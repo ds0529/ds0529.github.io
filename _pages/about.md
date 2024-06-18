@@ -12,7 +12,13 @@ About me
 ======
 Hi, I am an algorithm engineer (2024.06-) in [CRRC](https://www.crrcgc.cc/crrcgc/). Previously, I was an algorithm engineer (2022.09-2024.03) in [JD.Com](http://www.jd.com/). Prior to JD.Com, I received my D.Phil degree (2017.09-2022.09) in [National Laboratotry of Pattern Recognition](http://nlpr-web.ia.ac.cn/cn/index.html)(NLPR), [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn/)(CASIA), under the supervision of [Qiulei Dong](http://vision.ia.ac.cn/Faculty/qldong/index.htm). Prior to CASIA, I obtained my B.Eng degree (2013.09-2017.06) in [communication engineering](http://ei.hust.edu.cn/) from [Huazhong University of Science and Technolog](https://www.hust.edu.cn/). Here is my [CV](https://ds0529.github.io/files/ShuangDengCV-CN.pdf).
 
-My current research interests generally focus on cutting and packing problems, 3D detection of traffic lights, 3D point cloud semantic segmentation and detection, and measuring relative poses of satellites.
+My current research interests generally focus on:
+* Cutting and Packing Problems;
+* Multi-View 3D Detection;
+* 3D Point Cloud Detection;
+* 3D Point Cloud Semantic Segmentation;
+* Multiple View Geometry;
+* Measuring Relative Poses of Satellites.
 
 <br/>
 
@@ -133,7 +139,7 @@ ___
 
 Personal
 ======
-I have broad interests in painting, playing video games, DIY and hiking. Some recent paintings are shared below.<br/>
+I have broad interests in DIY, painting, playing video games, and listening EDM. Some recent paintings are shared below.<br/>
 <br />
 <img src="https://ds0529.github.io/images/paintings.png" alt="Photo" style="width: 100%;" align="center"/>
 
