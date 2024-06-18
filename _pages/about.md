@@ -37,7 +37,7 @@ Recent research
 ======
 <div class="row">
   <div class="column left">
-    <img align="left" width="22%">  
+    <img align="left" width="22%" src="https://ds0529.github.io/images/TIP2024.png">  
   </div>
   <div class="column middle">&nbsp;</div>
   <div class="column right">
