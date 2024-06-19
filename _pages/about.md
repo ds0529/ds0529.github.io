@@ -25,7 +25,7 @@ My current research interests generally focus on:
 News
 ======
 * [2024/06/11] &nbsp; One paper is accepted in IEEE Transactions on Image Processing (TIP).
-* [2022/02/01] &nbsp; One paper is accepted in IEEE Conference on Robotics and Automation (ICRA).
+* [2022/02/01] &nbsp; One paper is accepted in IEEE International Conference on Robotics and Automation (ICRA).
 * [2021/05/16] &nbsp; One paper is accepted in IEEE Signal Processing Letters (SPL).
 * [2021/05/11] &nbsp; One patent is accepted.
 * [2021/03/06] &nbsp; One paper is accepted in IEEE International Conference on Multimedia and Expo (ICME).
@@ -60,7 +60,7 @@ ___
     <p>
       <strong><a href='https://ieeexplore.ieee.org/document/9811904'>Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds</a></strong><br/>
       <u>Shuang Deng</u>, Qiulei Dong, Bo Liu, Zhanyi Hu<br/>
-      Accepted by IEEE Conference on Robotics and Automation (ICRA), 2022. (CCF-B, AR=43%)<br/>
+      Accepted by IEEE International Conference on Robotics and Automation (ICRA), 2022. (CCF-B, AR=43%)<br/>
       [<a href="https://ds0529.github.io/files/ICRA2022.pdf">PDF</a>]<br/>
       <br/>
     </p>
