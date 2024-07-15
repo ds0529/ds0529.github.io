@@ -42,7 +42,7 @@ Recent research
   <div class="column middle">&nbsp;</div>
   <div class="column right">
     <p>
-      <strong>Cayley Rotation Averaging: Multiple Camera Averaging Under the Cayley Framework</strong><br/>
+      <strong><a href='https://ieeexplore.ieee.org/document/10596089'>Cayley Rotation Averaging: Multiple Camera Averaging Under the Cayley Framework</a></strong><br/>
       Qiulei Dong, <u>Shuang Deng</u>, Yuzhen Liu<br/>
       Accepted by IEEE Transactions on Image Processing (TIP), 2024. (中科院-I)<br/>
       <br/>
