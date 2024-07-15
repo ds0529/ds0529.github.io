@@ -1,7 +1,7 @@
 ---
 title: "Cayley Rotation Averaging: Multiple Camera Averaging Under the Cayley Framework"
 collection: publications
-link: None
+link: 'https://ieeexplore.ieee.org/document/10596089'
 date: 2024-06-11
 venue: 'IEEE Transactions on Image Processing (TIP)'
 paperurl: None
