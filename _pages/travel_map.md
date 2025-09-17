@@ -41,6 +41,10 @@ redirect_from:
     </div>
 </div>
 
+<div class="travel-map-container">
+    <div id="travel-map" style="height:600px; width:100%;"></div>
+</div>
+
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
@@ -146,10 +150,6 @@ redirect_from:
         }
     }
 </style>
-
-<div class="travel-map-container">
-    <div id="travel-map" style="height:600px; width:100%;"></div>
-</div>
 
 <div class="map-stats">
     <div class="stat-card">
