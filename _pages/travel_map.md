@@ -147,7 +147,9 @@ redirect_from:
     }
 </style>
 
-<div id="map" style="height:600px; width:100%;"></div>
+<div class="travel-map-container">
+    <div id="travel-map" style="height:600px; width:100%;"></div>
+</div>
 
 <div class="map-stats">
     <div class="stat-card">
@@ -207,7 +209,7 @@ redirect_from:
     // 等待页面完全加载
     document.addEventListener('DOMContentLoaded', function() {
         // 初始化地图
-        var map = L.map('map').setView([35, 105], 4);
+        var map = L.map('travel-map').setView([35, 105], 4);
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: '&copy; OpenStreetMap contributors'
