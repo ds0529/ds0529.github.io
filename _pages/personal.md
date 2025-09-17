@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /personal/
-title: "persona"
+title: "personal"
 author_profile: true
 redirect_from:
   - /wordpress/personal/
