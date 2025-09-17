@@ -26,6 +26,21 @@ redirect_from:
   });
 </script>
 
+<div class="map-stats">
+    <div class="stat-card">
+        <div class="stat-number">12</div>
+        <div class="stat-label">访问过的国家</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number">24</div>
+        <div class="stat-label">访问过的城市</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number">5</div>
+        <div class="stat-label">今年新目的地</div>
+    </div>
+</div>
+
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
