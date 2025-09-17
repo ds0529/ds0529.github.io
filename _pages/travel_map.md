@@ -147,9 +147,7 @@ redirect_from:
     }
 </style>
 
-<div class="travel-map-container">
-    <div id="travel-map"></div>
-</div>
+<div id="map" style="height:600px; width:100%;"></div>
 
 <div class="map-stats">
     <div class="stat-card">
