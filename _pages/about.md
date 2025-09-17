@@ -24,6 +24,7 @@ My current research interests generally focus on:
 
 News
 ======
+* [2024/09/01] &nbsp; One paper is accepted in IEEE Transactions on Multimedia (TMM).
 * [2024/06/11] &nbsp; One paper is accepted in IEEE Transactions on Image Processing (TIP).
 * [2022/02/01] &nbsp; One paper is accepted in IEEE International Conference on Robotics and Automation (ICRA).
 * [2021/05/16] &nbsp; One paper is accepted in IEEE Signal Processing Letters (SPL).
@@ -35,6 +36,23 @@ News
 
 Recent research
 ======
+<div class="row">
+  <div class="column left">
+    <img align="left" width="22%" src="https://ds0529.github.io/images/TMM2025.png">  
+  </div>
+  <div class="column middle">&nbsp;</div>
+  <div class="column right">
+    <p>
+      <strong><a href='https://ieeexplore.ieee.org/document/11146486'>Towards Semi-supervised Dual-modal Semantic Segmentation</a></strong><br/>
+      Qiulei Dong, Jianan Li, <u>Shuang Deng</u><br/>
+      Accepted by IEEE Transactions on Multimedia (TMM), 2025. (中科院-I)<br/>
+      [<a href="https://ds0529.github.io/files/TMM2025.pdf">PDF</a>]<br/>
+      <br/>
+    </p>
+  </div>
+</div>
+
+___
 <div class="row">
   <div class="column left">
     <img align="left" width="22%" src="https://ds0529.github.io/images/TIP2024.png">  
