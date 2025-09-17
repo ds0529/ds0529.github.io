@@ -7,6 +7,7 @@ redirect_from:
   - /wordpress/travel_map/
 ---
 
+{% raw %}
 <div id="map" style="height:600px; width:100%;"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -24,4 +25,262 @@ redirect_from:
     L.marker([31.2304, 121.4737]).addTo(map).bindPopup("Shanghai");
   });
 </script>
-{% include map.html %}
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+<style>
+    .travel-map-container {
+        margin: 2rem 0;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+        background: white;
+    }
+    
+    #travel-map {
+        height: 550px;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    .map-stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+        margin: 2rem 0;
+    }
+    
+    .stat-card {
+        background: #f8f9fa;
+        padding: 1.5rem;
+        border-radius: 8px;
+        text-align: center;
+        border-left: 4px solid #159957;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+    
+    .stat-number {
+        font-size: 2.2rem;
+        font-weight: bold;
+        color: #159957;
+        margin-bottom: 0.5rem;
+        line-height: 1;
+    }
+    
+    .stat-label {
+        font-size: 0.95rem;
+        color: #6c757d;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    .map-legend {
+        background: white;
+        padding: 1.2rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        margin: 1.5rem 0;
+    }
+    
+    .legend-title {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: #2c3e50;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    
+    .legend-items {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.2rem;
+    }
+    
+    .legend-item {
+        display: flex;
+        align-items: center;
+    }
+    
+    .legend-icon {
+        margin-right: 0.6rem;
+        display: flex;
+    }
+    
+    .map-footer {
+        text-align: center;
+        margin-top: 2.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid #eaecef;
+        color: #6a737d;
+        font-size: 0.9rem;
+    }
+    
+    @media (max-width: 768px) {
+        #travel-map {
+            height: 400px;
+        }
+        
+        .map-stats {
+            grid-template-columns: 1fr;
+        }
+        
+        .legend-items {
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+    }
+</style>
+
+<div class="travel-map-container">
+    <div id="travel-map"></div>
+</div>
+
+<div class="map-stats">
+    <div class="stat-card">
+        <div class="stat-number">12</div>
+        <div class="stat-label">访问过的国家</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number">24</div>
+        <div class="stat-label">访问过的城市</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-number">5</div>
+        <div class="stat-label">今年新目的地</div>
+    </div>
+</div>
+
+<div class="map-legend">
+    <h3 class="legend-title">地图图例</h3>
+    <div class="legend-items">
+        <div class="legend-item">
+            <div class="legend-icon">
+                <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png" width="18" height="30" alt="居住地">
+            </div>
+            <span>居住地</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-icon">
+                <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png" width="18" height="30" alt="旅游">
+            </div>
+            <span>旅游目的地</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-icon">
+                <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png" width="18" height="30" alt="出差">
+            </div>
+            <span>出差地点</span>
+        </div>
+    </div>
+</div>
+
+<div class="map-content">
+    <h2>我的旅行故事</h2>
+    <p>这张地图展示了我过去几年的旅行足迹。每个标记代表一个我去过的地方，点击标记可以查看详细信息。</p>
+    
+    <h3>难忘的旅行经历</h3>
+    <p>我最喜欢的旅行经历包括在东京体验传统文化，在巴黎欣赏艺术杰作，以及在悉尼享受海滩生活。每个目的地都留下了独特的回忆。</p>
+    
+    <h3>未来的旅行计划</h3>
+    <p>接下来我计划访问南非开普敦和秘鲁马丘比丘。我期待探索这些地方的独特文化和自然景观，并将它们添加到我的旅行地图中。</p>
+</div>
+
+<div class="map-footer">
+    <p>最后更新: <span id="update-date"></span> | 使用Leaflet和OpenStreetMap构建</p>
+</div>
+
+<script>
+    // 等待页面完全加载
+    document.addEventListener('DOMContentLoaded', function() {
+        // 初始化地图
+        const map = L.map('travel-map').setView([35, 0], 2);
+        
+        // 添加OpenStreetMap图层
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 18,
+        }).addTo(map);
+        
+        // 足迹数据
+        const footprints = [
+            { lat: 39.9042, lng: 116.4074, name: '北京', date: '2023-05-10', type: '居住', desc: '我的家乡' },
+            { lat: 31.2304, lng: 121.4737, name: '上海', date: '2023-07-22', type: '旅游', desc: '商务旅行和观光' },
+            { lat: 22.3193, lng: 114.1694, name: '香港', date: '2023-08-15', type: '旅游', desc: '购物和美食之旅' },
+            { lat: 35.6762, lng: 139.6503, name: '东京', date: '2023-09-03', type: '出差', desc: '技术会议' },
+            { lat: 48.8566, lng: 2.3522, name: '巴黎', date: '2023-10-12', type: '旅游', desc: '浪漫之旅' },
+            { lat: 40.7128, lng: -74.0060, name: '纽约', date: '2023-11-05', type: '旅游', desc: '新年庆祝活动' },
+            { lat: -33.8688, lng: 151.2093, name: '悉尼', date: '2024-01-18', type: '旅游', desc: '夏季度假' },
+            { lat: 51.5074, lng: -0.1278, name: '伦敦', date: '2022-03-15', type: '出差', desc: '客户会议' },
+            { lat: 55.7558, lng: 37.6173, name: '莫斯科', date: '2022-06-20', type: '旅游', desc: '文化探索' },
+            { lat: 28.6139, lng: 77.2090, name: '新德里', date: '2022-09-10', type: '旅游', desc: '历史遗迹参观' }
+        ];
+        
+        // 创建不同颜色的图标
+        function createIcon(color) {
+            return L.icon({
+                iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-${color}.png`,
+                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+            });
+        }
+        
+        const typeIcons = {
+            '居住': createIcon('red'),
+            '旅游': createIcon('blue'),
+            '出差': createIcon('orange')
+        };
+        
+        // 添加足迹标记
+        footprints.forEach(footprint => {
+            const marker = L.marker([footprint.lat, footprint.lng], {icon: typeIcons[footprint.type]})
+                .addTo(map)
+                .bindPopup(`
+                    <div style="min-width: 200px">
+                        <h3 style="margin: 0 0 10px; color: #2c3e50;">${footprint.name}</h3>
+                        <p style="margin: 5px 0;"><strong>类型:</strong> ${footprint.type}</p>
+                        <p style="margin: 5px 0;"><strong>访问时间:</strong> ${footprint.date}</p>
+                        <p style="margin: 5px 0;">${footprint.desc}</p>
+                    </div>
+                `);
+        });
+        
+        // 添加图例控件
+        const legend = L.control({position: 'bottomright'});
+        legend.onAdd = function(map) {
+            const div = L.DomUtil.create('div', 'legend');
+            div.style.backgroundColor = 'white';
+            div.style.padding = '10px';
+            div.style.borderRadius = '5px';
+            div.style.boxShadow = '0 0 15px rgba(0, 0, 0, 0.2)';
+            div.style.fontSize = '14px';
+            
+            div.innerHTML = '<h4 style="margin: 0 0 10px; font-size: 14px;">图例</h4>';
+            
+            const types = [
+                {name: '居住', color: 'red'},
+                {name: '旅游', color: 'blue'},
+                {name: '出差', color: 'orange'}
+            ];
+            
+            types.forEach(type => {
+                div.innerHTML += `
+                    <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                        <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-${type.color}.png" width="15" height="25">
+                        <span style="margin-left: 5px;">${type.name}</span>
+                    </div>
+                `;
+            });
+            
+            return div;
+        };
+        legend.addTo(map);
+        
+        // 更新日期
+        document.getElementById('update-date').textContent = new Date().toLocaleDateString('zh-CN');
+    });
+</script>
+{% endraw %}
