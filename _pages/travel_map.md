@@ -25,8 +25,5 @@ redirect_from:
     L.marker([31.2304, 121.4737]).addTo(map).bindPopup("Shanghai");
   });
 </script>
-{% endraw %}
-
-{% raw %}
 {% include map.html %}
 {% endraw %}
