@@ -7,19 +7,20 @@ redirect_from:
   - /wordpress/travel_map/
 ---
 
-Hello!
+{% include base_path %}
 
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的旅行足迹地图 - GitHub Pages方案</title>
+    <title>旅行足迹地图 - GitHub Pages选项页集成</title>
     
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     
     <style>
+        /* 保留原有样式基础上添加地图样式 */
         * {
             box-sizing: border-box;
             margin: 0;
@@ -27,274 +28,270 @@ Hello!
         }
         
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             line-height: 1.6;
             color: #24292e;
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-            padding: 20px;
-            min-height: 100vh;
+            background-color: #fafbfc;
+            padding: 0;
+            margin: 0;
         }
         
-        .container {
-            max-width: 1000px;
+        .page-header {
+            color: #fff;
+            text-align: center;
+            background-color: #159957;
+            background-image: linear-gradient(120deg, #155799, #159957);
+            padding: 2rem 1rem;
+        }
+        
+        .page-header h1 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+        
+        .project-name {
+            font-size: 2.25rem;
+        }
+        
+        .project-tagline {
+            margin-bottom: 2rem;
+            font-weight: normal;
+            opacity: 0.7;
+        }
+        
+        .main-content {
+            max-width: 64rem;
+            padding: 2rem 1rem;
             margin: 0 auto;
-            background: white;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
         }
         
-        header {
-            background: linear-gradient(90deg, #2c3e50 0%, #4ca1af 100%);
-            color: white;
-            padding: 30px;
+        .main-content :first-child {
+            margin-top: 0;
+        }
+        
+        .map-container {
+            margin: 2rem 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background: white;
+        }
+        
+        #travel-map {
+            height: 500px;
+            width: 100%;
+            z-index: 10;
+        }
+        
+        .map-sidebar {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+        
+        .map-sidebar h3 {
+            margin-top: 0;
+            color: #155799;
+            border-bottom: 1px solid #e1e4e8;
+            padding-bottom: 0.5rem;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
         
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
+        .stat-number {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #159957;
+            margin-bottom: 0.5rem;
         }
         
-        .description {
-            font-size: 1.1rem;
-            opacity: 0.9;
-            max-width: 800px;
-            margin: 0 auto;
+        .stat-label {
+            font-size: 0.9rem;
+            color: #586069;
         }
         
-        .content {
-            padding: 30px;
-            display: grid;
-            grid-template-columns: 1fr 350px;
-            gap: 30px;
+        .legend {
+            background: white;
+            padding: 0.8rem;
+            border-radius: 4px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+            line-height: 1.5;
+            margin-top: 1rem;
         }
         
-        @media (max-width: 768px) {
-            .content {
+        .legend h4 {
+            margin: 0 0 8px;
+            font-size: 0.9rem;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        
+        .legend-icon {
+            width: 20px;
+            height: 32px;
+            margin-right: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+            border-top: 1px solid #eaecef;
+            color: #6a737d;
+            font-size: 0.9rem;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .project-name {
+                font-size: 1.8rem;
+            }
+            
+            #travel-map {
+                height: 400px;
+            }
+            
+            .stats-grid {
                 grid-template-columns: 1fr;
             }
         }
         
-        #map {
-            height: 500px;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            z-index: 10;
-        }
-        
-        .sidebar {
-            background: #f9f9f9;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-        }
-        
-        .sidebar h2 {
+        /* 保持与Jekyll主题一致性 */
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
             color: #2c3e50;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #4ca1af;
         }
         
-        .stats {
-            margin-bottom: 30px;
+        p {
+            margin-bottom: 1em;
         }
         
-        .stat-item {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 15px;
-            padding-bottom: 15px;
-            border-bottom: 1px solid #eee;
-        }
-        
-        .stat-item:last-child {
-            border-bottom: none;
-        }
-        
-        .instructions {
-            background: #fff;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            margin-top: 30px;
-        }
-        
-        .instructions h2 {
-            color: #2c3e50;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #4ca1af;
-        }
-        
-        .step {
-            display: flex;
-            margin-bottom: 20px;
-            align-items: flex-start;
-        }
-        
-        .step-number {
-            background: #4ca1af;
-            color: white;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 15px;
-            flex-shrink: 0;
-        }
-        
-        .step-content {
-            flex: 1;
-        }
-        
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #6a737d;
-            font-size: 0.9rem;
-            background: #f9f9f9;
-            border-top: 1px solid #eee;
-        }
-        
-        .github-link {
+        a {
             color: #0366d6;
             text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            margin-top: 10px;
         }
         
-        .github-link:hover {
+        a:hover {
             text-decoration: underline;
-        }
-        
-        .highlight {
-            background: #fff4e6;
-            padding: 2px 5px;
-            border-radius: 4px;
-            font-family: monospace;
-            font-weight: bold;
-            color: #e67700;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🌎 我的旅行足迹地图</h1>
-            <p class="description">使用GitHub Pages托管交互式地图并在README中展示的完整方案</p>
-        </header>
+    <!-- Jekyll页面结构 -->
+    <header class="page-header" role="banner">
+        <h1 class="project-name">旅行足迹地图</h1>
+        <h2 class="project-tagline">探索我去过的地方</h2>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+        <!-- 页面内容 -->
+        <h2>我的旅行足迹</h2>
+        <p>这是我过去几年旅行过的地方的可视化地图。点击标记可以查看每个地点的详细信息。</p>
         
-        <div class="content">
-            <div id="map"></div>
-            
-            <div class="sidebar">
-                <h2>足迹统计</h2>
-                <div class="stats">
-                    <div class="stat-item">
-                        <span>总访问地点:</span>
-                        <strong id="total-locations">7</strong>
-                    </div>
-                    <div class="stat-item">
-                        <span>最近访问:</span>
-                        <strong id="last-visited">悉尼</strong>
-                    </div>
-                    <div class="stat-item">
-                        <span>最喜欢的目的地:</span>
-                        <strong>巴黎</strong>
-                    </div>
-                    <div class="stat-item">
-                        <span>下一个目标:</span>
-                        <strong>开普敦</strong>
-                    </div>
+        <!-- 地图容器 -->
+        <div class="map-container">
+            <div id="travel-map"></div>
+        </div>
+        
+        <!-- 地图侧边栏/统计信息 -->
+        <div class="map-sidebar">
+            <h3>旅行统计</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">访问过的国家</div>
                 </div>
-                
-                <h2>地图图例</h2>
-                <div class="stats">
-                    <div class="stat-item">
-                        <span><img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png" width="15" height="25" alt="居住地"></span>
-                        <span>居住地</span>
+                <div class="stat-card">
+                    <div class="stat-number">24</div>
+                    <div class="stat-label">访问过的城市</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">今年新目的地</div>
+                </div>
+            </div>
+            
+            <div class="legend">
+                <h4>地图图例</h4>
+                <div class="legend-item">
+                    <div class="legend-icon">
+                        <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png" width="15" height="25" alt="居住地">
                     </div>
-                    <div class="stat-item">
-                        <span><img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png" width="15" height="25" alt="旅游"></span>
-                        <span>旅游</span>
+                    <span>居住地</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-icon">
+                        <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png" width="15" height="25" alt="旅游">
                     </div>
-                    <div class="stat-item">
-                        <span><img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png" width="15" height="25" alt="出差"></span>
-                        <span>出差</span>
+                    <span>旅游目的地</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-icon">
+                        <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png" width="15" height="25" alt="出差">
                     </div>
+                    <span>出差地点</span>
                 </div>
             </div>
         </div>
         
-        <div class="instructions">
-            <h2>如何添加到GitHub主页</h2>
-            
-            <div class="step">
-                <div class="step-number">1</div>
-                <div class="step-content">
-                    <h3>创建GitHub Pages仓库</h3>
-                    <p>创建一个名为 <span class="highlight">username.github.io</span> 的仓库（将username替换为你的GitHub用户名）</p>
-                </div>
-            </div>
-            
-            <div class="step">
-                <div class="step-number">2</div>
-                <div class="step-content">
-                    <h3>上传地图文件</h3>
-                    <p>将HTML文件（可命名为index.html）上传到仓库的根目录或/docs文件夹中</p>
-                </div>
-            </div>
-            
-            <div class="step">
-                <div class="step-number">3</div>
-                <div class="step-content">
-                    <h3>启用GitHub Pages</h3>
-                    <p>在仓库设置中，转到"Pages"部分，选择源分支（通常是main或master）和文件夹</p>
-                </div>
-            </div>
-            
-            <div class="step">
-                <div class="step-number">4</div>
-                <div class="step-content">
-                    <h3>添加到README</h3>
-                    <p>在你的GitHub个人主页README中添加链接：<span class="highlight">[![Travel Map](https://img.shields.io/badge/My-Travel_Map-blue?style=for-the-badge)](https://username.github.io)</span></p>
-                </div>
-            </div>
-        </div>
+        <h3>关于我的旅行</h3>
+        <p>我喜欢探索不同的文化和风景。这张地图展示了我过去几年的旅行足迹，包括居住、旅游和出差的地点。</p>
         
-        <footer>
-            <p>使用Leaflet和OpenStreetMap构建 | 最后更新: <span id="update-date"></span></p>
-            <a href="https://github.com/your-username/your-repo" class="github-link">在GitHub上查看此项目</a>
+        <p>我的下一个旅行目标是南非和秘鲁，希望很快能将它们添加到这张地图上！</p>
+        
+        <footer class="site-footer">
+            <p class="footer">最后更新: <span id="update-date"></span> | 使用Leaflet和OpenStreetMap构建</p>
         </footer>
-    </div>
+    </main>
 
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     
     <script>
         // 初始化地图
-        const map = L.map('map').setView([30, 0], 2);
+        const map = L.map('travel-map').setView([30, 0], 2);
         
         // 添加OpenStreetMap图层
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 18,
         }).addTo(map);
         
-        // 模拟足迹数据
+        // 足迹数据
         const footprints = [
-            { lat: 39.9042, lng: 116.4074, name: '北京', date: '2023-05-10', type: '居住' },
-            { lat: 31.2304, lng: 121.4737, name: '上海', date: '2023-07-22', type: '旅游' },
-            { lat: 22.3193, lng: 114.1694, name: '香港', date: '2023-08-15', type: '旅游' },
-            { lat: 35.6762, lng: 139.6503, name: '东京', date: '2023-09-03', type: '出差' },
-            { lat: 48.8566, lng: 2.3522, name: '巴黎', date: '2023-10-12', type: '旅游' },
-            { lat: 40.7128, lng: -74.0060, name: '纽约', date: '2023-11-05', type: '旅游' },
-            { lat: -33.8688, lng: 151.2093, name: '悉尼', date: '2024-01-18', type: '旅游' }
+            { lat: 39.9042, lng: 116.4074, name: '北京', date: '2023-05-10', type: '居住', desc: '我的家乡' },
+            { lat: 31.2304, lng: 121.4737, name: '上海', date: '2023-07-22', type: '旅游', desc: '商务旅行和观光' },
+            { lat: 22.3193, lng: 114.1694, name: '香港', date: '2023-08-15', type: '旅游', desc: '购物和美食之旅' },
+            { lat: 35.6762, lng: 139.6503, name: '东京', date: '2023-09-03', type: '出差', desc: '技术会议' },
+            { lat: 48.8566, lng: 2.3522, name: '巴黎', date: '2023-10-12', type: '旅游', desc: '浪漫之旅' },
+            { lat: 40.7128, lng: -74.0060, name: '纽约', date: '2023-11-05', type: '旅游', desc: '新年庆祝活动' },
+            { lat: -33.8688, lng: 151.2093, name: '悉尼', date: '2024-01-18', type: '旅游', desc: '夏季度假' },
+            { lat: 51.5074, lng: -0.1278, name: '伦敦', date: '2022-03-15', type: '出差', desc: '客户会议' },
+            { lat: 55.7558, lng: 37.6173, name: '莫斯科', date: '2022-06-20', type: '旅游', desc: '文化探索' },
+            { lat: 28.6139, lng: 77.2090, name: '新德里', date: '2022-09-10', type: '旅游', desc: '历史遗迹参观' }
         ];
         
         // 创建不同颜色的图标
@@ -324,11 +321,12 @@ Hello!
                         <h3 style="margin: 0 0 10px; color: #2c3e50;">${footprint.name}</h3>
                         <p style="margin: 5px 0;"><strong>类型:</strong> ${footprint.type}</p>
                         <p style="margin: 5px 0;"><strong>访问时间:</strong> ${footprint.date}</p>
+                        <p style="margin: 5px 0;">${footprint.desc}</p>
                     </div>
                 `);
         });
         
-        // 添加图例
+        // 添加图例控件
         const legend = L.control({position: 'bottomright'});
         legend.onAdd = function(map) {
             const div = L.DomUtil.create('div', 'legend');
@@ -336,8 +334,9 @@ Hello!
             div.style.padding = '10px';
             div.style.borderRadius = '5px';
             div.style.boxShadow = '0 0 15px rgba(0, 0, 0, 0.2)';
+            div.style.fontSize = '14px';
             
-            div.innerHTML = '<h4 style="margin: 0 0 10px;">图例</h4>';
+            div.innerHTML = '<h4 style="margin: 0 0 10px; font-size: 14px;">图例</h4>';
             
             const types = [
                 {name: '居住', color: 'red'},
@@ -363,5 +362,3 @@ Hello!
     </script>
 </body>
 </html>
-
-{% include base_path %}
