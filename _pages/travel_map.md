@@ -1,11 +1,11 @@
 ---
-layout: archive
+layout: single
 permalink: /travel_map/
 title: "travel map"
 author_profile: true
+classes: wide
 redirect_from:
   - /wordpress/travel_map/
 ---
 
-{% include base_path %}
-{% include map.html %}
+{% include travel-map.html %}
