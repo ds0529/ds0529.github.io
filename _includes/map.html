@@ -8,12 +8,21 @@
         overflow: hidden;
         box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
         background: white;
+        position: relative;
+        z-index: 1;
     }
     
     #travel-map {
         height: 550px;
         width: 100%;
         z-index: 10;
+    }
+    
+    /* 确保地图容器有明确的高度 */
+    .leaflet-container {
+        height: 100%;
+        width: 100%;
+        z-index: 1;
     }
     
     .map-stats {
@@ -88,6 +97,20 @@
         font-size: 0.9rem;
     }
     
+    /* 修复Minimal Mistakes可能覆盖的样式 */
+    .travel-map-container .leaflet-bar a, 
+    .travel-map-container .leaflet-bar a:hover {
+        background-color: #fff;
+        border-bottom: 1px solid #ccc;
+        color: #000;
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+    
     @media (max-width: 768px) {
         #travel-map {
             height: 400px;
@@ -147,7 +170,7 @@
     </div>
 </div>
 
-<!-- <div class="map-content">
+<div class="map-content">
     <h2>我的旅行故事</h2>
     <p>这张地图展示了我过去几年的旅行足迹。每个标记代表一个我去过的地方，点击标记可以查看详细信息。</p>
     
@@ -160,11 +183,17 @@
 
 <div class="map-footer">
     <p>最后更新: <span id="update-date"></span> | 使用Leaflet和OpenStreetMap构建</p>
-</div> -->
+</div>
 
 <script>
-    // 等待页面完全加载
-    document.addEventListener('DOMContentLoaded', function() {
+    // 使用更可靠的地图初始化方法
+    function initMap() {
+        // 确保地图容器存在
+        if (!document.getElementById('travel-map')) {
+            console.error('地图容器未找到');
+            return;
+        }
+        
         // 初始化地图
         const map = L.map('travel-map').setView([35, 0], 2);
         
@@ -253,5 +282,22 @@
         
         // 更新日期
         document.getElementById('update-date').textContent = new Date().toLocaleDateString('zh-CN');
-    });
+        
+        // 添加一个小延迟确保地图正确渲染
+        setTimeout(() => {
+            map.invalidateSize();
+        }, 100);
+    }
+    
+    // 多种方式确保地图初始化
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initMap);
+    } else {
+        initMap();
+    }
+    
+    // 如果页面是通过Turbolinks加载的
+    if (typeof Turbolinks !== 'undefined' && Turbolinks.supported) {
+        document.addEventListener('turbolinks:load', initMap);
+    }
 </script>
