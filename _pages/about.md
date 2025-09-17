@@ -160,9 +160,3 @@ ___
 
 <br/>
 
-Personal
-======
-I have broad interests in DIY, painting, playing video games, and listening EDM. Some recent paintings are shared below.<br/>
-<br />
-<img src="https://ds0529.github.io/images/paintings.png" alt="Photo" style="width: 100%;" align="center"/>
-
