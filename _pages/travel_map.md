@@ -8,4 +8,4 @@ redirect_from:
   - /wordpress/travel_map/
 ---
 
-{% include travel-map.html %}
+{% include map.html %}
