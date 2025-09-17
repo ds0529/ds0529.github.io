@@ -24,7 +24,7 @@ My current research interests generally focus on:
 
 News
 ======
-* [2024/09/01] &nbsp; One paper is accepted in IEEE Transactions on Multimedia (TMM).
+* [2025/09/01] &nbsp; One paper is accepted in IEEE Transactions on Multimedia (TMM).
 * [2024/06/11] &nbsp; One paper is accepted in IEEE Transactions on Image Processing (TIP).
 * [2022/02/01] &nbsp; One paper is accepted in IEEE International Conference on Robotics and Automation (ICRA).
 * [2021/05/16] &nbsp; One paper is accepted in IEEE Signal Processing Letters (SPL).
