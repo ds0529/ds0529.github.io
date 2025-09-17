@@ -7,7 +7,6 @@ redirect_from:
   - /wordpress/travel_map/
 ---
 
-{% raw %}
 <div id="map" style="height:600px; width:100%;"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -25,5 +24,4 @@ redirect_from:
     L.marker([31.2304, 121.4737]).addTo(map).bindPopup("Shanghai");
   });
 </script>
-{% endraw %}
 {% include map.html %}
