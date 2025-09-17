@@ -2,6 +2,9 @@
 main:  
   - title: "Publications"
     url: /publications/
+
+  - title: "Travel Map"
+    url: /travel_map/
     
   - title: "Blogs"
     url: /year-archive/
