@@ -27,4 +27,6 @@ redirect_from:
 </script>
 {% endraw %}
 
+{% raw %}
 {% include map.html %}
+{% endraw %}
