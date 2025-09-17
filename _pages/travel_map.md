@@ -26,8 +26,8 @@ redirect_from:
   });
 </script>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
 <style>
     .travel-map-container {
@@ -194,12 +194,10 @@ redirect_from:
     // 等待页面完全加载
     document.addEventListener('DOMContentLoaded', function() {
         // 初始化地图
-        const map = L.map('travel-map').setView([35, 0], 2);
-        
-        // 添加OpenStreetMap图层
+        var map = L.map('map').setView([35, 105], 4);
+
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-            maxZoom: 18,
+          attribution: '&copy; OpenStreetMap contributors'
         }).addTo(map);
         
         // 足迹数据
