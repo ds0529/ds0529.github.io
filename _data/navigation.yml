@@ -3,11 +3,14 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Personal"
+    url: /personal/
+
   - title: "Travel Map"
     url: /travel_map/
     
-  - title: "Blogs"
-    url: /year-archive/
+  # - title: "Blogs"
+  #   url: /year-archive/
     
   - title: "Message Board"
     url: /messages/
