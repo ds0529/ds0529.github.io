@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的旅行足迹地图</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f8fa;
+            color: #24292e;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #0366d6;
+            margin-bottom: 30px;
+        }
+        #map {
+            height: 500px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #e1e4e8;
+        }
+        .legend {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+        }
+        .legend i {
+            width: 18px;
+            height: 18px;
+            float: left;
+            margin-right: 8px;
+            opacity: 0.7;
+        }
+        .info {
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+        }
+        .github-corner:hover .octo-arm {
+            animation: octocat-wave 560ms ease-in-out;
+        }
+        @keyframes octocat-wave {
+            0%, 100% { transform: rotate(0); }
+            20%, 60% { transform: rotate(-25deg); }
+            40%, 80% { transform: rotate(10deg); }
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #6a737d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌎 我的旅行足迹</h1>
+        
+        <div id="map"></div>
+        
+        <div class="footer">
+            <p>使用Leaflet和OpenStreetMap构建 | 最后更新: <span id="update-date"></span></p>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    
+    <script>
+        // 初始化地图
+        const map = L.map('map').setView([30, 0], 2);
+        
+        // 添加OpenStreetMap图层
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        
+        // 模拟足迹数据（实际使用时可以替换为真实数据）
+        const footprints = [
+            { lat: 39.9042, lng: 116.4074, name: '北京', date: '2023-05-10', type: '居住' },
+            { lat: 31.2304, lng: 121.4737, name: '上海', date: '2023-07-22', type: '旅游' },
+            { lat: 22.3193, lng: 114.1694, name: '香港', date: '2023-08-15', type: '旅游' },
+            { lat: 35.6762, lng: 139.6503, name: '东京', date: '2023-09-03', type: '出差' },
+            { lat: 48.8566, lng: 2.3522, name: '巴黎', date: '2023-10-12', type: '旅游' },
+            { lat: 40.7128, lng: -74.0060, name: '纽约', date: '2023-11-05', type: '旅游' },
+            { lat: -33.8688, lng: 151.2093, name: '悉尼', date: '2024-01-18', type: '旅游' }
+        ];
+        
+        // 创建不同颜色的图标
+        function createIcon(color) {
+            return L.icon({
+                iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-${color}.png`,
+                shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+            });
+        }
+        
+        const typeIcons = {
+            '居住': createIcon('red'),
+            '旅游': createIcon('blue'),
+            '出差': createIcon('orange')
+        };
+        
+        // 添加足迹标记
+        footprints.forEach(footprint => {
+            const marker = L.marker([footprint.lat, footprint.lng], {icon: typeIcons[footprint.type]})
+                .addTo(map)
+                .bindPopup(`
+                    <b>${footprint.name}</b><br>
+                    类型: ${footprint.type}<br>
+                    访问时间: ${footprint.date}
+                `);
+        });
+        
+        // 添加图例
+        const legend = L.control({position: 'bottomright'});
+        legend.onAdd = function(map) {
+            const div = L.DomUtil.create('div', 'legend');
+            const types = ['居住', '旅游', '出差'];
+            const colors = ['red', 'blue', 'orange'];
+            
+            div.innerHTML = '<h4>图例</h4>';
+            
+            types.forEach((type, i) => {
+                div.innerHTML += `
+                    <div>
+                        <img src="https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-${colors[i]}.png" width="15" height="25">
+                        <span>${type}</span>
+                    </div>
+                `;
+            });
+            
+            return div;
+        };
+        legend.addTo(map);
+        
+        // 添加地图信息控件
+        const info = L.control({position: 'topleft'});
+        info.onAdd = function(map) {
+            this._div = L.DomUtil.create('div', 'info');
+            this.update();
+            return this._div;
+        };
+        info.update = function() {
+            this._div.innerHTML = `
+                <h4>足迹统计</h4>
+                总地点数: <b>${footprints.length}</b><br>
+                最近访问: <b>${footprints.sort((a, b) => new Date(b.date) - new Date(a.date))[0].name}</b>
+            `;
+        };
+        info.addTo(map);
+        
+        // 更新日期
+        document.getElementById('update-date').textContent = new Date().toLocaleDateString('zh-CN');
+    </script>
+</body>
+</html>
