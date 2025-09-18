@@ -168,27 +168,27 @@ redirect_from:
     // 新疆
     L.marker([39.4704, 75.9898]).addTo(map).bindPopup("喀什");
 
-    // 国外
-    // 日本
-    L.marker([35.6895, 139.6917]).addTo(map).bindPopup("东京");
-    L.marker([35.4437, 139.6380]).addTo(map).bindPopup("横滨");
-    L.marker([34.6937, 135.5023]).addTo(map).bindPopup("大阪");
-    L.marker([35.0116, 135.7681]).addTo(map).bindPopup("京都");
-    // 泰国
-    L.marker([13.7563, 100.5018]).addTo(map).bindPopup("曼谷");
-    // 土耳其
-    L.marker([41.0082, 28.9784]).addTo(map).bindPopup("伊斯坦布尔");
-    // 格鲁吉亚
-    L.marker([41.7151, 44.8271]).addTo(map).bindPopup("第比利斯");
-    L.marker([42.5128, 42.5128]).addTo(map).bindPopup("卡兹别克"); // 高加索地区 Mt. Kazbek，近似坐标
-    // 韩国
-    L.marker([37.5665, 126.9780]).addTo(map).bindPopup("首尔");
-    // 俄罗斯
-    L.marker([43.1155, 131.8855]).addTo(map).bindPopup("海参崴"); // 符拉迪沃斯托克
-    // 新加坡
-    L.marker([1.3521, 103.8198]).addTo(map).bindPopup("新加坡");
-    // 越南
-    L.marker([21.0278, 105.8342]).addTo(map).bindPopup("河内");
+    // // 国外
+    // // 日本
+    // L.marker([35.6895, 139.6917]).addTo(map).bindPopup("东京");
+    // L.marker([35.4437, 139.6380]).addTo(map).bindPopup("横滨");
+    // L.marker([34.6937, 135.5023]).addTo(map).bindPopup("大阪");
+    // L.marker([35.0116, 135.7681]).addTo(map).bindPopup("京都");
+    // // 泰国
+    // L.marker([13.7563, 100.5018]).addTo(map).bindPopup("曼谷");
+    // // 土耳其
+    // L.marker([41.0082, 28.9784]).addTo(map).bindPopup("伊斯坦布尔");
+    // // 格鲁吉亚
+    // L.marker([41.7151, 44.8271]).addTo(map).bindPopup("第比利斯");
+    // L.marker([42.5128, 42.5128]).addTo(map).bindPopup("卡兹别克"); // 高加索地区 Mt. Kazbek，近似坐标
+    // // 韩国
+    // L.marker([37.5665, 126.9780]).addTo(map).bindPopup("首尔");
+    // // 俄罗斯
+    // L.marker([43.1155, 131.8855]).addTo(map).bindPopup("海参崴"); // 符拉迪沃斯托克
+    // // 新加坡
+    // L.marker([1.3521, 103.8198]).addTo(map).bindPopup("新加坡");
+    // // 越南
+    // L.marker([21.0278, 105.8342]).addTo(map).bindPopup("河内");
 
   });
 </script>
