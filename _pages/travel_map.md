@@ -12,16 +12,16 @@ redirect_from:
 
 <div class="map-stats">
     <div class="stat-card">
-        <div class="stat-number">12</div>
+        <div class="stat-number">8</div>
         <div class="stat-label">访问过的国家</div>
     </div>
     <div class="stat-card">
-        <div class="stat-number">24</div>
+        <div class="stat-number">1</div>
         <div class="stat-label">访问过的城市</div>
     </div>
     <div class="stat-card">
-        <div class="stat-number">5</div>
-        <div class="stat-label">今年新目的地</div>
+        <div class="stat-number">1</div>
+        <div class="stat-label">访问过的省份</div>
     </div>
 </div>
 
