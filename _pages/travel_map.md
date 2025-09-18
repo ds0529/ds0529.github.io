@@ -66,25 +66,6 @@ redirect_from:
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // 初始化地图
-    var map = L.map('map').setView([35, 105], 4);
-
-    // 加载 OpenStreetMap 图层
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors'
-    }).addTo(map);
-
-    // 遍历 Jekyll 数据文件
-    {% for loc in site.data.travel_map %}
-      L.marker([{{ loc.lat }}, {{ loc.lon }}])
-        .addTo(map)
-        .bindPopup("<b>{{ loc.name }}</b>");
-    {% endfor %}
-  });
-</script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
     var map = L.map('map').setView([35, 105], 4);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
