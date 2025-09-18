@@ -147,34 +147,19 @@
     </div>
 </div>
 
-<div class="map-content">
-    <h2>我的旅行故事</h2>
-    <p>这张地图展示了我过去几年的旅行足迹。每个标记代表一个我去过的地方，点击标记可以查看详细信息。</p>
-    
-    <h3>难忘的旅行经历</h3>
-    <p>我最喜欢的旅行经历包括在东京体验传统文化，在巴黎欣赏艺术杰作，以及在悉尼享受海滩生活。每个目的地都留下了独特的回忆。</p>
-    
-    <h3>未来的旅行计划</h3>
-    <p>接下来我计划访问南非开普敦和秘鲁马丘比丘。我期待探索这些地方的独特文化和自然景观，并将它们添加到我的旅行地图中。</p>
-</div>
-
 <div class="map-footer">
     <p>最后更新: <span id="update-date"></span> | 使用Leaflet和OpenStreetMap构建</p>
 </div>
 
 <script>
-    // 等待页面完全加载
     document.addEventListener('DOMContentLoaded', function() {
-        // 初始化地图
         const map = L.map('travel-map').setView([35, 0], 2);
         
-        // 添加OpenStreetMap图层
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
             maxZoom: 18,
         }).addTo(map);
         
-        // 足迹数据
         const footprints = [
             { lat: 39.9042, lng: 116.4074, name: '北京', date: '2023-05-10', type: '居住', desc: '我的家乡' },
             { lat: 31.2304, lng: 121.4737, name: '上海', date: '2023-07-22', type: '旅游', desc: '商务旅行和观光' },
@@ -188,7 +173,6 @@
             { lat: 28.6139, lng: 77.2090, name: '新德里', date: '2022-09-10', type: '旅游', desc: '历史遗迹参观' }
         ];
         
-        // 创建不同颜色的图标
         function createIcon(color) {
             return L.icon({
                 iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-${color}.png`,
@@ -206,7 +190,6 @@
             '出差': createIcon('orange')
         };
         
-        // 添加足迹标记
         footprints.forEach(footprint => {
             const marker = L.marker([footprint.lat, footprint.lng], {icon: typeIcons[footprint.type]})
                 .addTo(map)
@@ -220,7 +203,6 @@
                 `);
         });
         
-        // 添加图例控件
         const legend = L.control({position: 'bottomright'});
         legend.onAdd = function(map) {
             const div = L.DomUtil.create('div', 'legend');
@@ -251,7 +233,6 @@
         };
         legend.addTo(map);
         
-        // 更新日期
         document.getElementById('update-date').textContent = new Date().toLocaleDateString('zh-CN');
     });
 </script>
