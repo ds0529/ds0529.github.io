@@ -80,7 +80,7 @@ ___
       <strong><a href='https://ieeexplore.ieee.org/document/9811904'>Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds</a></strong><br/>
       <u>Shuang Deng</u>, Qiulei Dong, Bo Liu, Zhanyi Hu<br/>
       Accepted by IEEE International Conference on Robotics and Automation (ICRA), 2022. (CCF-B, AR=43%)<br/>
-      [<a href="https://ds0529.github.io/files/ICRA2022.pdf">PDF</a>]<br/>
+      [<a href="https://ds0529.github.io/files/ICRA2022.pdf">PDF</a>] [<a href="https://github.com/ds0529/SSS-Net">Code</a>]<br/>
       <br/>
     </p>
   </div>
