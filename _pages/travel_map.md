@@ -12,11 +12,11 @@ redirect_from:
 
 <div class="map-stats">
     <div class="stat-card">
-        <div class="stat-number">8</div>
+        <div class="stat-number">9</div>
         <div class="stat-label">访问过的国家</div>
     </div>
     <div class="stat-card">
-        <div class="stat-number">73</div>
+        <div class="stat-number">74</div>
         <div class="stat-label">访问过的城市</div>
     </div>
     <div class="stat-card">
@@ -181,10 +181,12 @@ redirect_from:
     // 格鲁吉亚
     L.marker([41.7151, 44.8271]).addTo(map).bindPopup("第比利斯");
     L.marker([42.5128, 42.5128]).addTo(map).bindPopup("卡兹别克"); // 高加索地区 Mt. Kazbek，近似坐标
-    // 新加坡
-    L.marker([1.3521, 103.8198]).addTo(map).bindPopup("新加坡");
+    // 韩国
+    L.marker([37.5665, 126.9780]).addTo(map).bindPopup("首尔");
     // 俄罗斯
     L.marker([43.1155, 131.8855]).addTo(map).bindPopup("海参崴"); // 符拉迪沃斯托克
+    // 新加坡
+    L.marker([1.3521, 103.8198]).addTo(map).bindPopup("新加坡");
     // 越南
     L.marker([21.0278, 105.8342]).addTo(map).bindPopup("河内");
 
