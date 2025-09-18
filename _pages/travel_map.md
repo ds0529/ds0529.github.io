@@ -58,19 +58,35 @@ redirect_from:
     }
 </style>
 
+<!-- Leaflet CSS -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+<!-- Leaflet JS -->
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
+    // 初始化地图
     var map = L.map('map').setView([35, 105], 4);
 
+    // 加载 OpenStreetMap 图层
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    L.marker([39.9042, 116.4074]).addTo(map).bindPopup("Beijing");
-    L.marker([31.2304, 121.4737]).addTo(map).bindPopup("Shanghai");
+    // 遍历 Jekyll 数据文件
+    {% for loc in site.data.travel_map %}
+      var popupContent = "<b>{{ loc.name }}</b><br>{{ loc.desc }}";
+      
+      // 如果有图片，添加图片标签
+      {% if loc.photo %}
+        popupContent += '<br><img src="{{ loc.photo }}" alt="{{ loc.name }}" style="width:200px; height:auto;">';
+      {% endif %}
+
+      L.marker([{{ loc.lat }}, {{ loc.lon }}])
+        .addTo(map)
+        .bindPopup(popupContent);
+    {% endfor %}
   });
 </script>
 {% endraw %}
