@@ -52,9 +52,6 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
-      {% if author.csdn %}
-        <li><a href="{{ author.csdn }}"><i class="fas fa-fw fa-graduation-cap"></i> CSDN</a></li>
-      {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
@@ -64,13 +61,16 @@
       {% if author.semanticscholar %}
         <li><a href="{{ author.semanticscholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Semantic Scholar</a></li>
       {% endif %}
-      {% if author.orcid %}
+<!--       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
-      {% endif %}
+      {% endif %} -->
       {% if author.cnki %}
         <li><a href="{{ author.cnki }}"><i class="fas fa-fw fa-graduation-cap"></i> CNKI</a></li>
       {% endif %}
-      {% if author.bitbucket %}
+      {% if author.csdn %}
+        <li><a href="{{ author.csdn }}"><i class="fas fa-fw fa-graduation-cap"></i> CSDN</a></li>
+      {% endif %}
+<!--       {% if author.bitbucket %}
         <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
       {% endif %}
       {% if author.stackoverflow %}
@@ -87,29 +87,32 @@
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
-      {% endif %}
+      {% endif %} -->
       ---
-      {% if author.bilibili %}
-        <li><a href="https://space.bilibili.com/{{ author.bilibili }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> Bilibili</a></li>
+      {% if author.xiaohongshu %}
+        <li><a href="https://www.xiaohongshu.com/user/profile/{{ author.xiaohongshu }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> 小红书</a></li>
       {% endif %}
-      {% if author.zhihu %}
-        <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu"></i> Zhihu</a></li>
+      {% if author.bilibili %}
+        <li><a href="https://space.bilibili.com/{{ author.bilibili }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> 哔哩哔哩</a></li>
       {% endif %}
       {% if author.weibo %}
-        <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i> Weibo</a></li>
-      {% endif %}
-       {% if author.instagram %}
-        <li><a href="https://instagram.com/{{ author.instagram }}"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-      {% endif %}
-      {% if author.twitter %}
-        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-      {% endif %}
-      {% if author.facebook %}
-        <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i> 微博</a></li>
+      {% endif %} -->
+      {% if author.zhihu %}
+        <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu"></i> 知乎</a></li>
       {% endif %}
       {% if author.steam %}
         <li><a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i> Steam</a></li>
       {% endif %}
+       {% if author.instagram %}
+        <li><a href="https://instagram.com/{{ author.instagram }}"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+      {% endif %}
+      {% if author.facebook %}
+        <li><a href="https://www.facebook.com/{{ author.facebook }}"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+      {% endif %}
+<!--       {% if author.twitter %}
+        <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      {% endif %} -->
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
