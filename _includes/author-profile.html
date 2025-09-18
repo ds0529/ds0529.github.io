@@ -89,10 +89,22 @@
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
       {% endif %} -->
       {% if author.cnki %}
-        <li><a href="{{ author.cnki }}"><i class="fas fa-fw fa-graduation-cap"></i> CNKI</a></li>
+        <li>
+            <a href="{{ author.cnki }}">
+            <img src="{{ '/assets/icons/cnki.svg' | relative_url }}" 
+                 style="width:1.3em; height:1em; vertical-align:middle;" 
+                 aria-hidden="true"> 
+            CNKI</a>
+        </li>
       {% endif %}
       {% if author.csdn %}
-        <li><a href="{{ author.csdn }}"><i class="fas fa-fw fa-graduation-cap"></i> CSDN</a></li>
+        <li>
+            <a href="{{ author.csdn }}">
+            <img src="{{ '/assets/icons/csdn.svg' | relative_url }}" 
+                 style="width:1.3em; height:1em; vertical-align:middle;" 
+                 aria-hidden="true"> 
+            CSDN</a>
+        </li>
       {% endif %}
 <!--       {% if author.bitbucket %}
         <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
@@ -114,10 +126,22 @@
       {% endif %} -->
       ---
       {% if author.xiaohongshu %}
-        <li><a href="https://www.xiaohongshu.com/user/profile/{{ author.xiaohongshu }}"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i> 小红书</a></li>
+        <li>
+            <a href="https://www.xiaohongshu.com/user/profile/{{ author.xiaohongshu }}">
+            <img src="{{ '/assets/icons/xiaohongshu.svg' | relative_url }}" 
+                 style="width:1.3em; height:1em; vertical-align:middle;" 
+                 aria-hidden="true"> 
+            小红书</a>
+        </li>
       {% endif %}
       {% if author.bilibili %}
-        <li><a href="https://space.bilibili.com/{{ author.bilibili }}"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> 哔哩哔哩</a></li>
+        <li>
+            <a href="https://space.bilibili.com/{{ author.bilibili }}">
+            <img src="{{ '/assets/icons/bilibili.svg' | relative_url }}" 
+                 style="width:1.3em; height:1em; vertical-align:middle;" 
+                 aria-hidden="true"> 
+            哔哩哔哩</a>
+        </li>
       {% endif %}
       {% if author.weibo %}
         <li><a href="https://www.weibo.com/{{ author.weibo }}"><i class="fab fa-fw fa-weibo" aria-hidden="true"></i> 微博</a></li>
@@ -125,9 +149,10 @@
       {% if author.zhihu %}
         <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu"></i> 知乎</a></li>
       {% endif %}
-      {% if author.steam %}
+      ---
+<!--       {% if author.steam %}
         <li><a href="https://steamcommunity.com/id/{{ author.steam }}"><i class="fab fa-fw fa-steam-square" aria-hidden="true"></i> Steam</a></li>
-      {% endif %}
+      {% endif %} -->
        {% if author.instagram %}
         <li><a href="https://instagram.com/{{ author.instagram }}"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram</a></li>
       {% endif %}
