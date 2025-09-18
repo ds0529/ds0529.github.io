@@ -1,0 +1,14 @@
+- name: Beijing
+  lat: 39.9042
+  lon: 116.4074
+  # photo: "/images/beijing.jpg"
+
+- name: Shanghai
+  lat: 31.2304
+  lon: 121.4737
+  # photo: "/images/shanghai.jpg"
+
+- name: Tokyo
+  lat: 35.6895
+  lon: 139.6917
+  # photo: "/images/tokyo.jpg"
