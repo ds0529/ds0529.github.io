@@ -7,7 +7,7 @@ redirect_from:
   - /wordpress/personal/
 ---
 
-I have broad interests in DIY, designing posters, painting, playing video games, and listening EDM. <br/>
+I have broad interests in DIY, designing posters, painting, playing video games, traveling, and listening EDM. <br/>
 
 ## My DIY:
 
@@ -45,7 +45,7 @@ I have broad interests in DIY, designing posters, painting, playing video games,
     Xbox: ds0529
   </a>
 
-* <img src="https://ds0529.github.io/assets/icons/palystation.svg"
+* <img src="https://ds0529.github.io/assets/icons/playstation.svg"
        title="PlayStation"
        style="width:1em; height:1em; vertical-align:middle;" 
        aria-hidden="true"> 
