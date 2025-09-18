@@ -78,8 +78,21 @@ redirect_from:
     {% for loc in site.data.travel_map %}
       L.marker([{{ loc.lat }}, {{ loc.lon }}])
         .addTo(map)
-        .bindPopup("<b>{{ loc.name }}</b><br>");
+        .bindPopup("<b>{{ loc.name }}</b>");
     {% endfor %}
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var map = L.map('map').setView([35, 105], 4);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    L.marker([39.9042, 116.4074]).addTo(map).bindPopup("Beijing");
+    L.marker([31.2304, 121.4737]).addTo(map).bindPopup("Shanghai");
   });
 </script>
 {% endraw %}
