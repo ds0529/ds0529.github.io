@@ -2,7 +2,7 @@
 layout: archive
 permalink: /travel_map/
 title: "travel map"
-author_profile: true
+author_profile: false
 redirect_from:
   - /wordpress/travel_map/
 ---
@@ -75,17 +75,10 @@ redirect_from:
     }).addTo(map);
 
     // 遍历 Jekyll 数据文件
-    {% for loc in site.data.travel_map %}
-      var popupContent = "<b>{{ loc.name }}</b><br>{{ loc.desc }}";
-      
-      // 如果有图片，添加图片标签
-      {% if loc.photo %}
-        popupContent += '<br><img src="{{ loc.photo }}" alt="{{ loc.name }}" style="width:200px; height:auto;">';
-      {% endif %}
-
+    {% for loc in site.data.travelmap %}
       L.marker([{{ loc.lat }}, {{ loc.lon }}])
         .addTo(map)
-        .bindPopup(popupContent);
+        .bindPopup("<b>{{ loc.name }}</b><br>{{ loc.desc }}");
     {% endfor %}
   });
 </script>
