@@ -75,10 +75,10 @@ redirect_from:
     }).addTo(map);
 
     // 遍历 Jekyll 数据文件
-    {% for loc in site.data.travelmap %}
+    {% for loc in site.data.travel_map %}
       L.marker([{{ loc.lat }}, {{ loc.lon }}])
         .addTo(map)
-        .bindPopup("<b>{{ loc.name }}</b><br>{{ loc.desc }}");
+        .bindPopup("<b>{{ loc.name }}</b><br>");
     {% endfor %}
   });
 </script>
