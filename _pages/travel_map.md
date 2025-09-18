@@ -150,3 +150,5 @@ redirect_from:
   });
 </script>
 {% endraw %}
+
+{% include map.html %}
