@@ -28,25 +28,25 @@
       <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=657fa3&w=190&t=tt&d=PF75u1B77aaL0yM34qvW_pc30ych80s5o3C5Mkf59zQ&co=ededed&ct=444444'></script>
       ---
       {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+        <li><i class="fa fa-fw fa-map-marker" title="Location" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.phone %}
-        <li><i class="fas fa-fw fa-phone" aria-hidden="true"></i> {{ author.phone }}</li>
+        <li><i class="fas fa-fw fa-phone" title="Telphone" aria-hidden="true"></i> {{ author.phone }}</li>
       {% endif %}
       {% if author.email %}
-        <li><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ author.email }}</li>
+        <li><i class="fas fa-fw fa-envelope" title="E-Mail" aria-hidden="true"></i> {{ author.email }}</li>
       {% endif %}
       {% if author.weixin %}
-        <li><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> {{ author.weixin }}</li>
+        <li><i class="fab fa-fw fa-weixin" title="微信" aria-hidden="true"></i> {{ author.weixin }}</li>
       {% endif %}
       {% if author.qq %}
-        <li><i class="fab fa-fw fa-qq" aria-hidden="true"></i> {{ author.qq }}</li>
+        <li><i class="fab fa-fw fa-qq" title="QQ" aria-hidden="true"></i> {{ author.qq }}</li>
       {% endif %}
       {% if author.tiktok %}
         <li>
             <img src="{{ '/assets/icons/tiktok.svg' | relative_url }}" 
-                 title="TikTok" 
-                 style="width:1.2em; height:1em; vertical-align:middle;" 
+                 title="抖音" 
+                 style="width:1.3em; height:1em; vertical-align:middle;" 
                  aria-hidden="true"> 
             {{ author.tiktok }}
         </li>
