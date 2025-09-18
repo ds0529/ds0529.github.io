@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-favicon                  : /assets/images/favicon.png
+favicon                  : /assets/images/favicon.ico
 locale                   : "en-US"
 title                    : "Shuang Deng"
 title_separator          : "-"
