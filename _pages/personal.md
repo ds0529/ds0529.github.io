@@ -9,19 +9,19 @@ redirect_from:
 
 I have broad interests in DIY, designing posters, painting, playing video games, and listening EDM. <br/>
 
-# My DIY:
+## My DIY:
 
 <img src="https://ds0529.github.io/images/diy.png" alt="Photo" style="width: 100%;" align="center"/>
 
-# My designing posters:
+## My designing posters:
 
 <img src="https://ds0529.github.io/images/posters.png" alt="Photo" style="width: 100%;" align="center"/>
 
-# My paintings:
+## My paintings:
 
 <img src="https://ds0529.github.io/images/paintings.png" alt="Photo" style="width: 100%;" align="center"/>
 
-# My game accounts:
+## My game accounts:
 
 * <a href="https://steamcommunity.com/id/ds0529">
     <img src="https://ds0529.github.io/assets/icons/steam.svg"
@@ -29,4 +29,12 @@ I have broad interests in DIY, designing posters, painting, playing video games,
          style="width:1em; height:1em; vertical-align:middle;" 
          aria-hidden="true"> 
     884557225
+  </a>
+
+* <a href="https://www.xbox.com/en-AU/play/user/ds0529">
+    <img src="https://ds0529.github.io/assets/icons/xbox.svg"
+         title="Xbox"
+         style="width:1em; height:1em; vertical-align:middle;" 
+         aria-hidden="true"> 
+    ds0529
   </a>
