@@ -24,8 +24,9 @@ I have broad interests in DIY, designing posters, painting, playing video games,
 # My game accounts:
 
 * <a href="https://steamcommunity.com/id/ds0529">
-    <img src="{{ '/assets/icons/steam.svg' | relative_url }}" 
-         style="width:1.3em; height:1.3em; vertical-align:middle;" 
+    <img src="https://ds0529.github.io/assets/icons/steam.svg"
+         title="Steam"
+         style="width:1em; height:1em; vertical-align:middle;" 
          aria-hidden="true"> 
-    Steam: 884557225
+    884557225
   </a>
