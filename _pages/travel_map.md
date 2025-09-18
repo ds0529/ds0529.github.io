@@ -16,11 +16,11 @@ redirect_from:
         <div class="stat-label">访问过的国家</div>
     </div>
     <div class="stat-card">
-        <div class="stat-number">1</div>
+        <div class="stat-number">73</div>
         <div class="stat-label">访问过的城市</div>
     </div>
     <div class="stat-card">
-        <div class="stat-number">1</div>
+        <div class="stat-number">32</div>
         <div class="stat-label">访问过的省份</div>
     </div>
 </div>
@@ -119,6 +119,10 @@ redirect_from:
     L.marker([23.1291, 113.2644]).addTo(map).bindPopup("广州");
     L.marker([22.5431, 114.0579]).addTo(map).bindPopup("深圳");
     L.marker([23.0215, 113.1214]).addTo(map).bindPopup("佛山");
+    // 香港
+    L.marker([22.3193, 114.1694]).addTo(map).bindPopup("香港");
+    // 澳门
+    L.marker([22.1987, 113.5439]).addTo(map).bindPopup("澳门");
     // 广西
     L.marker([24.3141, 109.4280]).addTo(map).bindPopup("柳州");
     L.marker([25.2736, 110.2905]).addTo(map).bindPopup("桂林");
