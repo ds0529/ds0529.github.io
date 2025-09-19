@@ -64,6 +64,7 @@ redirect_from:
 <!-- Leaflet JS -->
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
+<!-- Countries .geo.json: https://github.com/johan/world.geo.json/tree/master/countries -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     var map = L.map('map').setView([35, 105], 4);
