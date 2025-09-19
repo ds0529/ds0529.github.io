@@ -72,21 +72,6 @@ redirect_from:
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    function addCountry(url, fillColor) {
-      fetch(url)
-        .then(r => r.json())
-        .then(data => {
-          L.geoJSON(data, {
-            style: {
-              color: "#000000",
-              weight: 1,
-              fillColor: fillColor,
-              fillOpacity: 0.3
-            }
-          }).addTo(map);
-        });
-    }
-
     fetch("/files/map_data/cities.json")
       .then(r => r.json())
       .then(cities => {
