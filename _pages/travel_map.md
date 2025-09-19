@@ -104,7 +104,7 @@ redirect_from:
           let popupContent = `<div style="text-align:center;">
             <b>${city.name}</b>`;
           if (city.date) popupContent += `<br>${city.date}</br>`;
-          if (city.image) popupContent += `<img src="/images/map_data/${city.image}" style="width:150px;height:auto;margin-top:5px;" />`;
+          if (city.image) popupContent += `<img src="${city.image}" style="width:150px;height:auto;margin-top:5px;" />`;
           popupContent += `</div>`;
           L.marker([city.lat, city.lon]).addTo(map).bindPopup(popupContent);
         });
