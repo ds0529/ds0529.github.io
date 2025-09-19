@@ -101,10 +101,10 @@ redirect_from:
       .then(r => r.json())
       .then(cities => {
         cities.forEach(city => {
-          let popupContent = `<div style="width:auto;height:auto;text-align:center;">
+          let popupContent = `<div style="width:200px;height:auto;text-align:center;">
             <b>${city.name}</b>`;
           if (city.date) popupContent += `<br>${city.date}</br>`;
-          if (city.image) popupContent += `<img src="${city.image}" style="width:250px;height:auto;" />`;
+          if (city.image) popupContent += `<img src="${city.image}" style="width:180px;height:auto;" />`;
           popupContent += `</div>`;
           L.marker([city.lat, city.lon]).addTo(map).bindPopup(popupContent, { maxWidth: 300 });
         });
