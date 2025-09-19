@@ -87,7 +87,7 @@ redirect_from:
         });
     }
     
-    addCountry("/files/map_data/CHN.geo.json", "#ffcc00");   // 中国
+    addCountry("/files/map_data/CHN.geo.json", "#ffcc00");
 
     fetch("/files/map_data/cities.json")
       .then(r => r.json())
