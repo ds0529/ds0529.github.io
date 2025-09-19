@@ -72,18 +72,22 @@ redirect_from:
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    fetch("/files/map_data/countries.geojson")
-      .then(r => r.json())
-      .then(data => {
-        L.geoJSON(data, {
-          style: feature => ({
-            color: "#000000",
-            weight: 1,
-            fillColor: feature.properties.fillColor || "#cccccc",
-            fillOpacity: 0.4
-          })
-        }).addTo(map);
-      });
+    function addCountry(url, fillColor) {
+      fetch(url)
+        .then(r => r.json())
+        .then(data => {
+          L.geoJSON(data, {
+            style: {
+              color: "#000000",
+              weight: 1,
+              fillColor: fillColor,
+              fillOpacity: 0.4
+            }
+          }).addTo(map);
+        });
+    }
+    
+    addCountry("/files/map_data/china.geojson", "#ffcc00");   // 中国
 
     fetch("/files/map_data/cities.json")
       .then(r => r.json())
