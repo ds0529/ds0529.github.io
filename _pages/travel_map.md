@@ -7,6 +7,8 @@ redirect_from:
   - /wordpress/travel_map/
 ---
 
+Clicking on each map point will bring up a pop-up window showing the visiting city, date, experience and photos.
+
 {% raw %}
 <div id="map" style="height:600px; width:100%;"></div>
 
