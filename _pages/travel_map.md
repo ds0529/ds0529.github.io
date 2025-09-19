@@ -104,7 +104,6 @@ redirect_from:
             <div style="text-align:center;">
               <h4>${city.name}</h4>
               <p>${city.date}</p>
-              <img src="${city.image}" alt="${city.name}" style="width:150px;border-radius:8px;">
             </div>
           `;
           L.marker([city.lat, city.lon])
