@@ -107,9 +107,14 @@ redirect_from:
           else popupContent += `<div style="width:auto;height:auto;text-align:center;">
             <b>${city.name}</b>`;
           if (city.date) popupContent += `<br>${city.date}</br>`;
-          if (city.image) popupContent += `<img src="${city.image}" style="width:300px;height:auto;" />`;
           popupContent += `</div>`;
           L.marker([city.lat, city.lon]).addTo(map).bindPopup(popupContent, { maxWidth: 300 });
+          if (city.image) {
+            marker.on("popupopen", function (e) {
+              let imgHtml = `<br><img src="${city.image}" style="width:300px;height:auto;">`;
+              e.popup.setContent(popupContent + imgHtml);
+            });
+          }
         });
       });
   });
