@@ -101,10 +101,10 @@ redirect_from:
       .then(r => r.json())
       .then(cities => {
         cities.forEach(city => {
-          let popupContent = `<div `
-          if (city.image) popupContent += `style="width:300px;height:auto;text-align:center;">
+          let popupContent = ``;
+          if (city.image) popupContent += `<div style="width:300px;height:auto;text-align:center;">
             <b>${city.name}</b>`;
-          else popupContent += `style="width:auto;height:auto;text-align:center;">
+          else popupContent += `<div style="width:auto;height:auto;text-align:center;">
             <b>${city.name}</b>`;
           if (city.date) popupContent += `<br>${city.date}</br>`;
           if (city.image) popupContent += `<img src="${city.image}" style="width:300px;height:auto;" />`;
