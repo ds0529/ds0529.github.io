@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "China", "fillColor": "#ffcc00" },
+      "geometry": { "type": "Polygon", "coordinates": [ ... ] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Japan", "fillColor": "#66ccff" },
+      "geometry": { "type": "Polygon", "coordinates": [ ... ] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Thailand", "fillColor": "#ff99cc" },
+      "geometry": { "type": "Polygon", "coordinates": [ ... ] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Turkey", "fillColor": "#ffa07a" },
+      "geometry": { "type": "Polygon", "coordinates": [ ... ] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Georgia", "fillColor": "#dda0dd" },
+      "geometry": { "type": "Polygon", "coordinates": [ ... ] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "South Korea", "fillColor": "#99ff99" },
+      "geometry": { "type": "Polygon", "coordinates": [ ... ] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Russia", "fillColor": "#ff9966" },
+      "geometry": { "type": "Polygon", "coordinates": [ ... ] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Singapore", "fillColor": "#87cefa" },
+      "geometry": { "type": "Polygon", "coordinates": [ ... ] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Vietnam", "fillColor": "#90ee90" },
+      "geometry": { "type": "Polygon", "coordinates": [ ... ] }
+    }
+  ]
+}
