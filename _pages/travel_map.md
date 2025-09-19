@@ -103,7 +103,7 @@ redirect_from:
         cities.forEach(city => {
           let popupContent = `<b>${city.name}</b>`;
           if (city.date) popupContent += `<br>${city.date}</br>`;
-          L.marker([city.lat, city.lon]).addTo(map).bindPopup(popupContent, { maxWidth: 300 });
+          let marker = L.marker([city.lat, city.lon]).addTo(map).bindPopup(popupContent, { maxWidth: 300 });
           if (city.image) {
             marker.on("popupopen", function (e) {
               let imgHtml = `<br><img src="${city.image}" style="width:300px;height:auto;">`;
