@@ -87,5 +87,6 @@ redirect_from:
             .bindPopup(popupContent);
         });
       });
+  });
 </script>
 {% endraw %}
