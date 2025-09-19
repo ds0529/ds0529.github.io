@@ -89,15 +89,12 @@ redirect_from:
       .then(r => r.json())
       .then(cities => {
         cities.forEach(city => {
-          let popupContent = `
-            <div style="text-align:center;">
-              <h4>${city.name}</h4>
-              <p>${city.date}</p>
-            </div>
-          `;
-          L.marker([city.lat, city.lon])
-            .addTo(map)
-            .bindPopup(popupContent);
+          let popupContent = `<div style="text-align:center;">
+            <h4>${city.name}</h4>`;
+          if (city.date) popupContent += `<p>${city.date}</p>`;
+          if (city.image) popupContent += `<img src="assets/images/${city.image}" style="width:150px;height:auto;margin-top:5px;" />`;
+          popupContent += `</div>`;
+          L.marker([city.lat, city.lon]).addTo(map).bindPopup(popupContent);
         });
       });
   });
