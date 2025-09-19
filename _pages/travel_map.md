@@ -72,28 +72,18 @@ redirect_from:
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    function addCountry(url, fillColor) {
-      fetch(url)
-        .then(r => r.json())
-        .then(data => {
-          L.geoJSON(data, {
-            style: {
-              color: "#000000",
-              weight: 1,
-              fillColor: fillColor,
-              fillOpacity: 0.4
-            }
-          }).addTo(map);
-        });
-    }
-    
-    addCountry("china.geojson", "#ffcc00");
-    addCountry("japan.geojson", "#66ccff");
-    addCountry("korea.geojson", "#99ff99");
-    addCountry("thailand.geojson", "#ff99cc");
-    addCountry("turkey.geojson", "#ffa07a");
-    addCountry("georgia.geojson", "#dda0dd");
-    addCountry("singapore.geojson", "#87cefa");
+    fetch("/files/map_data/countries.geojson")
+      .then(r => r.json())
+      .then(data => {
+        L.geoJSON(data, {
+          style: feature => ({
+            color: "#000000",
+            weight: 1,
+            fillColor: feature.properties.fillColor || "#cccccc",
+            fillOpacity: 0.4
+          })
+        }).addTo(map);
+      });
 
     fetch("/files/map_data/cities.json")
       .then(r => r.json())
