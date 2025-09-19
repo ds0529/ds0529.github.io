@@ -87,14 +87,6 @@ redirect_from:
         });
     }
 
-    /* addCountry("/files/map_data/china.geojson", "#ffcc00");
-    addCountry("/files/map_data/japan.geojson", "#66ccff");
-    addCountry("/files/map_data/korea.geojson", "#99ff99");
-    addCountry("/files/map_data/thailand.geojson", "#ff99cc");
-    addCountry("/files/map_data/turkey.geojson", "#ffa07a");
-    addCountry("/files/map_data/georgia.geojson", "#dda0dd");
-    addCountry("/files/map_data/singapore.geojson", "#87cefa"); */
-
     fetch("/files/map_data/cities.json")
       .then(r => r.json())
       .then(cities => {
