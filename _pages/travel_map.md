@@ -7,7 +7,7 @@ redirect_from:
   - /wordpress/travel_map/
 ---
 
-Clicking on each map point will bring up a pop-up window showing the visiting city, date, experience and photos.
+Clicking on each map point will bring up a pop-up window showing the city name (Chinese), visiting date, experience (Chinese), and photos.
 
 {% raw %}
 <div id="map" style="height:600px; width:100%;"></div>
@@ -16,14 +16,17 @@ Clicking on each map point will bring up a pop-up window showing the visiting ci
     <div class="stat-card">
         <div class="stat-number">9</div>
         <div class="stat-label">访问过的国家</div>
+        <div class="stat-label">Countries visited</div>
     </div>
     <div class="stat-card">
         <div class="stat-number">74</div>
         <div class="stat-label">访问过的城市</div>
+        <div class="stat-label">Cities visited</div>
     </div>
     <div class="stat-card">
         <div class="stat-number">32</div>
         <div class="stat-label">访问过的省份</div>
+        <div class="stat-label">Provinces visited</div>
     </div>
 </div>
 
