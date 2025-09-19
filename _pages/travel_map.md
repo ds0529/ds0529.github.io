@@ -102,7 +102,7 @@ redirect_from:
       .then(cities => {
         cities.forEach(city => {
           let popupContent = ``;
-          if (city.image) popupContent += `<div style="width:300px;height:auto;text-align:left;">
+          if (city.image || city.desc) popupContent += `<div style="width:300px;height:auto;text-align:left;">
             <b>${city.name}</b>`;
           else popupContent += `<div style="width:auto;height:auto;text-align:center;">
             <b>${city.name}</b>`;
