@@ -88,7 +88,14 @@ redirect_from:
         });
     }
     
-    addCountry("/files/map_data/CHN.geo.json", "#ffcc00");
+    addCountry("/files/map_data/CHN.geo.json", "#ffcccc");
+    addCountry("/files/map_data/JPN.geo.json", "#cce5ff");
+    addCountry("/files/map_data/THA.geo.json", "#ccffcc");
+    addCountry("/files/map_data/TUR.geo.json", "#ffe5cc");
+    addCountry("/files/map_data/GEO.geo.json", "#e5ccff");
+    addCountry("/files/map_data/KOR.geo.json", "#ffffcc");
+    addCountry("/files/map_data/RUS.geo.json", "#e5e5e5");
+    addCountry("/files/map_data/VNM.geo.json", "#ccffff");
 
     fetch("/files/map_data/cities.json")
       .then(r => r.json())
