@@ -89,7 +89,7 @@ redirect_from:
     }
     
     addCountry("/files/map_data/CHN.geo.json", "#ffcc00");
-    addCountry("/files/map_data/JPN.geo.json", "#66ccff");
+    addCountry("/files/map_data/JPN.geo.json", "#99ff99");
     addCountry("/files/map_data/THA.geo.json", "#99ff99");
     addCountry("/files/map_data/TUR.geo.json", "#ff99cc");
     addCountry("/files/map_data/GEO.geo.json", "#ffa07a");
