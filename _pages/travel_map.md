@@ -66,10 +66,9 @@ redirect_from:
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    var map = L.map('map').setView([30, 110], 3);
-    
+    var map = L.map('map').setView([35, 105], 4);
+
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 18,
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
