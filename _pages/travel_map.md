@@ -14,12 +14,12 @@ Clicking on each map point will bring up a pop-up window showing the city name (
 
 <div class="map-stats">
     <div class="stat-card">
-        <div class="stat-number">9</div>
+        <div class="stat-number">12</div>
         <div class="stat-label">访问过的国家</div>
         <div class="stat-label">Countries visited</div>
     </div>
     <div class="stat-card">
-        <div class="stat-number">74</div>
+        <div class="stat-number">78</div>
         <div class="stat-label">访问过的城市</div>
         <div class="stat-label">Cities visited</div>
     </div>
@@ -101,6 +101,9 @@ Clicking on each map point will bring up a pop-up window showing the city name (
     addCountry("/files/map_data/KOR.geo.json", "#dda0dd");
     addCountry("/files/map_data/RUS.geo.json", "#87cefa");
     addCountry("/files/map_data/VNM.geo.json", "#ff99cc");
+    addCountry("/files/map_data/MYS.geo.json", "#ffa07a");
+    addCountry("/files/map_data/IDN.geo.json", "#ffcc00");
+    addCountry("/files/map_data/PHL.geo.json", "#87cefa");
 
     fetch("/files/map_data/cities.json")
       .then(r => r.json())
