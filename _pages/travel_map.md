@@ -14,12 +14,12 @@ Clicking on each map point will bring up a pop-up window showing the city name (
 
 <div class="map-stats">
     <div class="stat-card">
-        <div class="stat-number">12</div>
+        <div class="stat-number">14</div>
         <div class="stat-label">访问过的国家</div>
         <div class="stat-label">Countries visited</div>
     </div>
     <div class="stat-card">
-        <div class="stat-number">85</div>
+        <div class="stat-number">88</div>
         <div class="stat-label">访问过的城市</div>
         <div class="stat-label">Cities visited</div>
     </div>
