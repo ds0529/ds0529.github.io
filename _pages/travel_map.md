@@ -104,6 +104,8 @@ Clicking on each map point will bring up a pop-up window showing the city name (
     addCountry("/files/map_data/MYS.geo.json", "#ffa07a");
     addCountry("/files/map_data/IDN.geo.json", "#ffcc00");
     addCountry("/files/map_data/PHL.geo.json", "#87cefa");
+    addCountry("/files/map_data/KAZ.geo.json", "#99ff99");
+    addCountry("/files/map_data/UZB.geo.json", "#ffcc00");
 
     fetch("/files/map_data/cities.json")
       .then(r => r.json())
