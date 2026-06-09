@@ -1,7 +1,7 @@
 ---
 title: "一种基于双目视觉的卫星相对位姿测量方法"
 collection: publications
-link: 'http://journal01.magtech.org.cn/Jwk3_kjkzjs/CN/10.3969/j.issn.1674%EE%80%911579.2020.06.007'
+link: 'https://kns.cnki.net/kcms2/article/abstract?v=RM9JFOVmTL_GW13dsRwLrGEjY4q0Ojy-YOYf5-PYrtJ6S61QprWzDOtrW4AL7xQbrP9RHgz2Y47y6KUcgdKO7grSySvGgjf8uHmuqm0vZmQtxDKK-Lt9AtOZuSvz9aRinnMVlbWffSq1XR9u1MiC4LMeTFkCV7-bpeUnNHt7RL0IB88-uXbXP-o_t6oWHNjlJaGTXJSbMgbfq6o2n7XGtg==&uniplatform=NZKPT&language=CHS'
 date: 2020-12-25
 venue: 'Aerospace Control and Application (空间控制技术与应用, ACA)'
 paperurl: 'http://ds0529.github.io/files/ACA2020.pdf'
