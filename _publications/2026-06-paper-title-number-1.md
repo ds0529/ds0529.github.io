@@ -1,7 +1,7 @@
 ---
 title: "基于新型半监督分割框架的齿轮钢残余奥氏体测量方法"
 collection: publications
-link: ''
+link: 'https://kns.cnki.net/kcms2/article/abstract?v=RM9JFOVmTL8Ql_MUZlHUNvQYw7dRUgUdHak6HbjgYQrruIbnl3lCqV9Marz2UKbFo4idE2fA2CecU9_fuedByO1gY4AHut-cIFZyGuwKpp3an7mnjdr2Hw1FhAXFUV-FgoKnM6gW-6x9tzRwObergg==&uniplatform=NZKPT&language=CHS'
 date: 2026-06-05
 venue: 'Materials for Rail Transportation System (轨道交通材料, MRTS)'
 paperurl: 'http://ds0529.github.io/files/MRTS2026.pdf'
