@@ -41,7 +41,7 @@ Recent research
   <div class="column middle">&nbsp;</div>
   <div class="column right">
     <p>
-      <strong><a href=''>基于新型半监督分割框架的齿轮钢残余奥氏体测量方法</a></strong><br/>
+      <strong><a href='https://kns.cnki.net/kcms2/article/abstract?v=RM9JFOVmTL9x5_06NgJ6MHRqF42waKXBOVczVuKfL_PM-waHoNOIN6YCtWxpdOebLy2rE4HH8FhtYL2UFSKCFlDXUTG02SalvwRz0V3pT9M_COb2eJJRrFo_nElEJq35Xlwm8Y8Xw86EzF3G9ky8ezkP4JE01rf5cM2dKOEqEp7P0UQt-hqQqw==&uniplatform=NZKPT&language=CHS'>基于新型半监督分割框架的齿轮钢残余奥氏体测量方法</a></strong><br/>
       <u>邓爽</u>, 李吉帅, 杨伟, 张佳, 顾津瑞, 李平平, 耿路峰<br/>
       Accepted by Materials for Rail Transportation System (轨道交通材料, MRTS), 2026/06/05. (省部级，中车核心)<br/>
       [<a href="https://ds0529.github.io/files/publications/MRTS2026.pdf">PDF</a>]<br/>
