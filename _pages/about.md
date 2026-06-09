@@ -164,7 +164,7 @@ ___
   <div class="column middle">&nbsp;</div>
   <div class="column right">
     <p>
-      <strong><a href='http://journal01.magtech.org.cn/Jwk3_kjkzjs/CN/10.3969/j.issn.1674%EE%80%911579.2020.06.007'>一种基于双目视觉的卫星相对位姿测量方法</a></strong><br/>
+      <strong><a href='[http://journal01.magtech.org.cn/Jwk3_kjkzjs/CN/10.3969/j.issn.1674%EE%80%911579.2020.06.007](https://kns.cnki.net/kcms2/article/abstract?v=RM9JFOVmTL_GW13dsRwLrGEjY4q0Ojy-YOYf5-PYrtJ6S61QprWzDOtrW4AL7xQbrP9RHgz2Y47y6KUcgdKO7grSySvGgjf8uHmuqm0vZmQtxDKK-Lt9AtOZuSvz9aRinnMVlbWffSq1XR9u1MiC4LMeTFkCV7-bpeUnNHt7RL0IB88-uXbXP-o_t6oWHNjlJaGTXJSbMgbfq6o2n7XGtg==&uniplatform=NZKPT&language=CHS)'>一种基于双目视觉的卫星相对位姿测量方法</a></strong><br/>
       <u>邓爽</u>, 王波, 董秋雷<br/>
       Accepted by Aerospace Control and Application (空间控制技术与应用, ACA), 2020/12/25. (中文核心)<br/>
       [<a href="https://ds0529.github.io/files/publications/ACA2020.pdf">PDF</a>]
