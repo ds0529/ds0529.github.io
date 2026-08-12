@@ -19,7 +19,7 @@ Clicking on each map point will bring up a pop-up window showing the city name (
         <div class="stat-label">Countries visited</div>
     </div>
     <div class="stat-card">
-        <div class="stat-number">88</div>
+        <div class="stat-number">89</div>
         <div class="stat-label">访问过的城市</div>
         <div class="stat-label">Cities visited</div>
     </div>
