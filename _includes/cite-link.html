@@ -1,0 +1,4 @@
+{% assign cite_key = include.key | default: page.citation_key %}
+{% assign cite_item = site.data.citations[cite_key] %}
+{% assign cite_label = include.label | default: "Cite" %}
+{% if cite_item %}<a href="#cite-modal" class="cite-trigger" data-cite-key="{{ cite_key | escape }}" aria-haspopup="dialog" aria-controls="cite-modal">{{ cite_label }}</a>{% endif %}

@@ -1,0 +1,248 @@
+{% for cite_entry in site.data.citations %}
+  {% assign cite_key = cite_entry[0] %}
+  {% assign cite_item = cite_entry[1] %}
+  <template id="cite-data-{{ cite_key }}" data-title="{{ cite_item.title | escape }}">
+    <div data-format="citation">{{ cite_item.citation | escape }}</div>
+    <div data-format="bibtex">{{ cite_item.bibtex | escape }}</div>
+  </template>
+{% endfor %}
+
+<div id="cite-modal" class="cite-modal" aria-hidden="true">
+  <div class="cite-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="cite-modal-title">
+    <button type="button" class="cite-modal__close" aria-label="Close citation window">&times;</button>
+    <h3 id="cite-modal-title" class="cite-modal__title">Citation</h3>
+
+    <div class="cite-tabs" role="tablist" aria-label="Citation formats">
+      <button type="button" class="cite-tab is-active" role="tab" aria-selected="true" aria-controls="cite-panel-citation" data-format="citation">Citation</button>
+      <button type="button" class="cite-tab" role="tab" aria-selected="false" aria-controls="cite-panel-bibtex" data-format="bibtex">BibTeX</button>
+    </div>
+
+    <div id="cite-panel-citation" class="cite-panel is-active" role="tabpanel">
+      <pre><code></code></pre>
+    </div>
+    <div id="cite-panel-bibtex" class="cite-panel" role="tabpanel" hidden>
+      <pre><code></code></pre>
+    </div>
+
+    <button type="button" class="cite-copy">Copy</button>
+  </div>
+</div>
+
+<style>
+  .cite-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.55);
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .cite-modal.is-open {
+    display: flex;
+  }
+
+  .cite-modal__dialog {
+    position: relative;
+    width: min(760px, 100%);
+    max-height: 85vh;
+    overflow: auto;
+    padding: 1.25rem;
+    border-radius: 8px;
+    background: #fff;
+    color: #222;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.25);
+  }
+
+  .cite-modal__title {
+    margin: 0 2rem 1rem 0;
+    color: #222;
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+
+  .cite-modal__close {
+    position: absolute;
+    top: 0.65rem;
+    right: 0.8rem;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: #666;
+    font-size: 1.8rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .cite-tabs {
+    display: flex;
+    gap: 0.25rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .cite-tab {
+    padding: 0.55rem 0.9rem;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    background: none;
+    color: #666;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .cite-tab.is-active {
+    border-bottom-color: #52adc8;
+    color: #222;
+    font-weight: 600;
+  }
+
+  .cite-panel pre {
+    max-height: 42vh;
+    margin: 1rem 0;
+    padding: 1rem;
+    overflow: auto;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background: #f7f7f7;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  .cite-panel code {
+    padding: 0;
+    background: transparent;
+    color: inherit;
+    font-size: 0.82rem;
+  }
+
+  .cite-copy {
+    padding: 0.45rem 0.85rem;
+    border: 1px solid #52adc8;
+    border-radius: 4px;
+    background: #52adc8;
+    color: #fff;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  body.cite-modal-open {
+    overflow: hidden;
+  }
+
+  @media (max-width: 600px) {
+    .cite-modal__dialog {
+      padding: 1rem;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.citationModalInitialized) return;
+    window.citationModalInitialized = true;
+
+    const modal = document.getElementById("cite-modal");
+    if (!modal) return;
+
+    const modalTitle = document.getElementById("cite-modal-title");
+    const closeButton = modal.querySelector(".cite-modal__close");
+    const copyButton = modal.querySelector(".cite-copy");
+    const tabs = Array.from(modal.querySelectorAll(".cite-tab"));
+    const panels = {
+      citation: document.getElementById("cite-panel-citation"),
+      bibtex: document.getElementById("cite-panel-bibtex")
+    };
+    let activeFormat = "citation";
+    let lastFocusedElement = null;
+
+    function switchTab(format) {
+      activeFormat = format;
+      tabs.forEach(function (tab) {
+        const isActive = tab.dataset.format === format;
+        tab.classList.toggle("is-active", isActive);
+        tab.setAttribute("aria-selected", String(isActive));
+      });
+      Object.keys(panels).forEach(function (key) {
+        const isActive = key === format;
+        panels[key].classList.toggle("is-active", isActive);
+        panels[key].hidden = !isActive;
+      });
+      copyButton.textContent = "Copy";
+    }
+
+    function openModal(citeKey) {
+      const source = document.getElementById("cite-data-" + citeKey);
+      if (!source || !source.content) return;
+
+      modalTitle.textContent = source.dataset.title || "Citation";
+      Object.keys(panels).forEach(function (format) {
+        const textSource = source.content.querySelector('[data-format="' + format + '"]');
+        panels[format].querySelector("code").textContent = textSource ? textSource.textContent.trim() : "";
+      });
+
+      lastFocusedElement = document.activeElement;
+      switchTab("citation");
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("cite-modal-open");
+      closeButton.focus();
+    }
+
+    function closeModal() {
+      modal.classList.remove("is-open");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("cite-modal-open");
+      if (lastFocusedElement) lastFocusedElement.focus();
+    }
+
+    function fallbackCopy(text) {
+      const textarea = document.createElement("textarea");
+      textarea.value = text;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      textarea.remove();
+    }
+
+    document.querySelectorAll(".cite-trigger").forEach(function (link) {
+      link.addEventListener("click", function (event) {
+        event.preventDefault();
+        openModal(link.dataset.citeKey);
+      });
+    });
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener("click", function () {
+        switchTab(tab.dataset.format);
+      });
+    });
+
+    copyButton.addEventListener("click", function () {
+      const text = panels[activeFormat].querySelector("code").textContent;
+      const copyPromise = navigator.clipboard && window.isSecureContext
+        ? navigator.clipboard.writeText(text).catch(function () { fallbackCopy(text); })
+        : Promise.resolve(fallbackCopy(text));
+
+      copyPromise.then(function () {
+        copyButton.textContent = "Copied!";
+        window.setTimeout(function () {
+          copyButton.textContent = "Copy";
+        }, 1200);
+      });
+    });
+
+    closeButton.addEventListener("click", closeModal);
+    modal.addEventListener("click", function (event) {
+      if (event.target === modal) closeModal();
+    });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && modal.classList.contains("is-open")) closeModal();
+    });
+  });
+</script>
