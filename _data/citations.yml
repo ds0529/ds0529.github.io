@@ -1,0 +1,126 @@
+mrts2026:
+  title: >-
+    基于新型半监督分割框架的齿轮钢残余奥氏体测量方法
+  citation: >-
+    邓爽, 李吉帅, 杨伟, 张佳, 顾津瑞, 李平平, 耿路峰. 基于新型半监督分割框架的齿轮钢残余奥氏体测量方法[J]. 轨道交通材料, 2026. (已录用).
+  bibtex: |-
+    @article{deng2026semi,
+      title={基于新型半监督分割框架的齿轮钢残余奥氏体测量方法},
+      author={邓爽 and 李吉帅 and 杨伟 and 张佳 and 顾津瑞 and 李平平 and 耿路峰},
+      journal={轨道交通材料},
+      year={2026},
+      note={Accepted}
+    }
+
+tmm2025:
+  title: >-
+    Towards Semi-supervised Dual-modal Semantic Segmentation
+  citation: >-
+    Qiulei Dong, Jianan Li and Shuang Deng. Towards Semi-supervised Dual-modal Semantic Segmentation[J]. IEEE Transactions on Multimedia (TMM), 2025, 27: 8212-8224. doi: 10.1109/TMM.2025.3604939.
+  bibtex: |-
+    @article{dong2025towards,
+      title={Towards Semi-supervised Dual-modal Semantic Segmentation},
+      author={Dong, Qiulei and Li, Jianan and Deng, Shuang},
+      journal={IEEE Transactions on Multimedia},
+      volume={27},
+      pages={8212--8224},
+      year={2025},
+      doi={10.1109/TMM.2025.3604939}
+    }
+
+ijcnn2024:
+  title: >-
+    Focus on your Geometry: Exploiting the Potential of Multi-Frame Stereo Depth Estimation Pre-training for 3D Object Detection
+  citation: >-
+    Zichen Wang, Zhuokun Yao, Jianwei Zhang, Ye Zheng, Zhengyuan Zhang, Shuang Deng, Yajing Liu and Hao Liu. Focus on your Geometry: Exploiting the Potential of Multi-Frame Stereo Depth Estimation Pre-training for 3D Object Detection[C]//2024 International Joint Conference on Neural Networks (IJCNN). IEEE, 2024: 1-8. doi: 10.1109/IJCNN60899.2024.10650924.
+  bibtex: |-
+    @inproceedings{wang2024focus,
+      title={Focus on your Geometry: Exploiting the Potential of Multi-Frame Stereo Depth Estimation Pre-training for 3D Object Detection},
+      author={Wang, Zichen and Yao, Zhuokun and Zhang, Jianwei and Zheng, Ye and Zhang, Zhengyuan and Deng, Shuang and Liu, Yajing and Liu, Hao},
+      booktitle={2024 International Joint Conference on Neural Networks (IJCNN)},
+      pages={1--8},
+      year={2024},
+      organization={IEEE},
+      doi={10.1109/IJCNN60899.2024.10650924}
+    }
+
+tip2024:
+  title: >-
+    Cayley Rotation Averaging: Multiple Camera Averaging Under the Cayley Framework
+  citation: >-
+    Qiulei Dong, Shuang Deng and Yuzhen Liu. Cayley Rotation Averaging: Multiple Camera Averaging Under the Cayley Framework[J]. IEEE Transactions on Image Processing (TIP), 2024, 33: 4173-4187. doi: 10.1109/TIP.2024.3416057.
+  bibtex: |-
+    @article{dong2024cayley,
+      title={Cayley Rotation Averaging: Multiple Camera Averaging Under the Cayley Framework},
+      author={Dong, Qiulei and Deng, Shuang and Liu, Yuzhen},
+      journal={IEEE Transactions on Image Processing},
+      volume={33},
+      pages={4173--4187},
+      year={2024},
+      doi={10.1109/TIP.2024.3416057}
+    }
+
+icra2022:
+  title: >-
+    Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds
+  citation: >-
+    Shuang Deng, Qiulei Dong, Bo Liu and Zhanyi Hu. Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds[C]//2022 International Conference on Robotics and Automation (ICRA). IEEE, 2022: 9214-9220. doi: 10.1109/ICRA46639.2022.9811904.
+  bibtex: |-
+    @inproceedings{deng2022superpoint,
+      title={Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds},
+      author={Deng, Shuang and Dong, Qiulei and Liu, Bo and Hu, Zhanyi},
+      booktitle={2022 International Conference on Robotics and Automation (ICRA)},
+      pages={9214--9220},
+      year={2022},
+      organization={IEEE},
+      doi={10.1109/ICRA46639.2022.9811904}
+    }
+
+spl2021:
+  title: >-
+    GA-NET: Global Attention Network for Point Cloud Semantic Segmentation
+  citation: >-
+    Shuang Deng and Qiulei Dong. GA-NET: Global Attention Network for Point Cloud Semantic Segmentation[J]. IEEE Signal Processing Letters (SPL), 2021, 28: 1300-1304. doi: 10.1109/LSP.2021.3082851.
+  bibtex: |-
+    @article{deng2021ganet,
+      title={GA-NET: Global Attention Network for Point Cloud Semantic Segmentation},
+      author={Deng, Shuang and Dong, Qiulei},
+      journal={IEEE Signal Processing Letters},
+      volume={28},
+      pages={1300--1304},
+      year={2021},
+      doi={10.1109/LSP.2021.3082851}
+    }
+
+icme2021:
+  title: >-
+    Rotation Transformation Network: Learning View-Invariant Point Cloud for Classification and Segmentation
+  citation: >-
+    Shuang Deng, Bo Liu, Qiulei Dong and Zhanyi Hu. Rotation Transformation Network: Learning View-Invariant Point Cloud for Classification and Segmentation[C]//2021 IEEE International Conference on Multimedia and Expo (ICME). IEEE, 2021: 1-6. doi: 10.1109/ICME51207.2021.9428265.
+  bibtex: |-
+    @inproceedings{deng2021rotation,
+      title={Rotation Transformation Network: Learning View-Invariant Point Cloud for Classification and Segmentation},
+      author={Deng, Shuang and Liu, Bo and Dong, Qiulei and Hu, Zhanyi},
+      booktitle={2021 IEEE International Conference on Multimedia and Expo (ICME)},
+      pages={1--6},
+      year={2021},
+      organization={IEEE},
+      doi={10.1109/ICME51207.2021.9428265}
+    }
+
+aca2020:
+  title: >-
+    一种基于双目视觉的卫星相对位姿测量方法
+  citation: >-
+    邓爽, 王波, 董秋雷. 一种基于双目视觉的卫星相对位姿测量方法[J]. 空间控制技术与应用, 2020, 46(6): 50-55. doi: 10.3969/j.issn.1674-1579.2020.06.007.
+  bibtex: |-
+    @article{deng2020binocular,
+      title={一种基于双目视觉的卫星相对位姿测量方法},
+      author={邓爽 and 王波 and 董秋雷},
+      journal={空间控制技术与应用},
+      volume={46},
+      number={6},
+      pages={50--55},
+      year={2020},
+      doi={10.3969/j.issn.1674-1579.2020.06.007}
+    }
