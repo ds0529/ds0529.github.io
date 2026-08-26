@@ -44,7 +44,7 @@ Recent research
       <strong><a href='https://kns.cnki.net/kcms2/article/abstract?v=RM9JFOVmTL9x5_06NgJ6MHRqF42waKXBOVczVuKfL_PM-waHoNOIN6YCtWxpdOebLy2rE4HH8FhtYL2UFSKCFlDXUTG02SalvwRz0V3pT9M_COb2eJJRrFo_nElEJq35Xlwm8Y8Xw86EzF3G9ky8ezkP4JE01rf5cM2dKOEqEp7P0UQt-hqQqw==&uniplatform=NZKPT&language=CHS'>基于新型半监督分割框架的齿轮钢残余奥氏体测量方法</a></strong><br/>
       <u>邓爽</u>, 李吉帅, 杨伟, 张佳, 顾津瑞, 李平平, 耿路峰<br/>
       Accepted by Materials for Rail Transportation System (轨道交通材料, MRTS), 2026/06/05. (省部级，中车核心)<br/>
-      [<a href="https://ds0529.github.io/files/publications/MRTS2026.pdf">PDF</a>]<br/>
+      [<a href="https://ds0529.github.io/files/publications/MRTS2026.pdf">PDF</a>] [<button type="button" class="cite-trigger" data-cite-id="cite-mrts2026" aria-haspopup="dialog">Cite</button>]<br/>
       <br/>
     </p>
   </div>
@@ -61,7 +61,7 @@ ___
       <strong><a href='https://ieeexplore.ieee.org/document/11146486'>Towards Semi-supervised Dual-modal Semantic Segmentation</a></strong><br/>
       Qiulei Dong, Jianan Li, <u>Shuang Deng</u><br/>
       Accepted by IEEE Transactions on Multimedia (TMM), 2025/09/01. (中科院-I)<br/>
-      [<a href="https://ds0529.github.io/files/publications/TMM2025.pdf">PDF</a>]<br/>
+      [<a href="https://ds0529.github.io/files/publications/TMM2025.pdf">PDF</a>] [<button type="button" class="cite-trigger" data-cite-id="cite-tmm2025" aria-haspopup="dialog">Cite</button>]<br/>
       <br/>
     </p>
   </div>
@@ -78,7 +78,7 @@ ___
       <strong><a href='https://ieeexplore.ieee.org/document/10596089'>Cayley Rotation Averaging: Multiple Camera Averaging Under the Cayley Framework</a></strong><br/>
       Qiulei Dong, <u>Shuang Deng</u>, Yuzhen Liu<br/>
       Accepted by IEEE Transactions on Image Processing (TIP), 2024/06/11. (中科院-I，导师一作)<br/>
-      [<a href="https://ds0529.github.io/files/publications/TIP2024.pdf">PDF</a>]<br/>
+      [<a href="https://ds0529.github.io/files/publications/TIP2024.pdf">PDF</a>] [<button type="button" class="cite-trigger" data-cite-id="cite-tip2024" aria-haspopup="dialog">Cite</button>]<br/>
       <br/>
     </p>
   </div>
@@ -95,7 +95,7 @@ ___
       <strong><a href='https://ieeexplore.ieee.org/document/9811904'>Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds</a></strong><br/>
       <u>Shuang Deng</u>, Qiulei Dong, Bo Liu, Zhanyi Hu<br/>
       Accepted by IEEE International Conference on Robotics and Automation (ICRA), 2022/02/01. (CCF-B, AR=43%)<br/>
-      [<a href="https://ds0529.github.io/files/publications/ICRA2022.pdf">PDF</a>] [<a href="https://github.com/ds0529/SSS-Net">Code</a>]<br/>
+      [<a href="https://ds0529.github.io/files/publications/ICRA2022.pdf">PDF</a>] [<button type="button" class="cite-trigger" data-cite-id="cite-icra2022" aria-haspopup="dialog">Cite</button>] [<a href="https://github.com/ds0529/SSS-Net">Code</a>]<br/>
       <br/>
     </p>
   </div>
@@ -113,7 +113,7 @@ ___
       <strong><a href='https://ieeexplore.ieee.org/document/9439963'>GA-NET: Global Attention Network for Point Cloud Semantic Segmentation</a></strong><br/>
       <u>Shuang Deng</u>, Qiulei Dong<br/>
       Accepted by IEEE Signal Processing Letters (SPL), 2021/05/16. (中科院-II)<br/>
-      [<a href="https://ds0529.github.io/files/publications/SPL2021.pdf">PDF</a>] [<a href="https://github.com/ds0529/GA-Net">Code</a>]<br/>
+      [<a href="https://ds0529.github.io/files/publications/SPL2021.pdf">PDF</a>] [<button type="button" class="cite-trigger" data-cite-id="cite-spl2021" aria-haspopup="dialog">Cite</button>] [<a href="https://github.com/ds0529/GA-Net">Code</a>]<br/>
       <br/>
     </p>
   </div>
@@ -131,7 +131,7 @@ ___
       <strong><a href='https://ieeexplore.ieee.org/abstract/document/9428265'>Rotation Transformation Network: Learning View-Invariant Point Cloud for Classification and Segmentation</a></strong><br/>
       <u>Shuang Deng</u>, Bo Liu, Qiulei Dong, Zhanyi Hu<br/>
       Accepted by IEEE International Conference on Multimedia and Expo (ICME), 2021/03/06. (CCF-B, AR=30%)<br/>
-      [<a href="https://ds0529.github.io/files/publications/ICME2021.pdf">PDF</a>] [<a href="https://github.com/ds0529/RTN">Code</a>]<br/>
+      [<a href="https://ds0529.github.io/files/publications/ICME2021.pdf">PDF</a>] [<button type="button" class="cite-trigger" data-cite-id="cite-icme2021" aria-haspopup="dialog">Cite</button>] [<a href="https://github.com/ds0529/RTN">Code</a>]<br/>
       <br/>
     </p>
   </div>
@@ -164,10 +164,10 @@ ___
   <div class="column middle">&nbsp;</div>
   <div class="column right">
     <p>
-      <strong><a href='[http://journal01.magtech.org.cn/Jwk3_kjkzjs/CN/10.3969/j.issn.1674%EE%80%911579.2020.06.007](https://kns.cnki.net/kcms2/article/abstract?v=RM9JFOVmTL_GW13dsRwLrGEjY4q0Ojy-YOYf5-PYrtJ6S61QprWzDOtrW4AL7xQbrP9RHgz2Y47y6KUcgdKO7grSySvGgjf8uHmuqm0vZmQtxDKK-Lt9AtOZuSvz9aRinnMVlbWffSq1XR9u1MiC4LMeTFkCV7-bpeUnNHt7RL0IB88-uXbXP-o_t6oWHNjlJaGTXJSbMgbfq6o2n7XGtg==&uniplatform=NZKPT&language=CHS)'>一种基于双目视觉的卫星相对位姿测量方法</a></strong><br/>
+      <strong><a href='https://aca.spacejournal.cn/article/doi/10.3969/j.issn.1674-1579.2020.06.007'>一种基于双目视觉的卫星相对位姿测量方法</a></strong><br/>
       <u>邓爽</u>, 王波, 董秋雷<br/>
       Accepted by Aerospace Control and Application (空间控制技术与应用, ACA), 2020/12/25. (中文核心)<br/>
-      [<a href="https://ds0529.github.io/files/publications/ACA2020.pdf">PDF</a>]
+      [<a href="https://ds0529.github.io/files/publications/ACA2020.pdf">PDF</a>] [<button type="button" class="cite-trigger" data-cite-id="cite-aca2020" aria-haspopup="dialog">Cite</button>]
       <br/>
     </p>
   </div>
@@ -175,303 +175,341 @@ ___
 
 <br/>
 
-{::nomarkdown}
+<!-- Citation data: one template for each paper. -->
+<template id="cite-mrts2026" data-title="基于新型半监督分割框架的齿轮钢残余奥氏体测量方法">
+  <div data-format="citation">邓爽, 李吉帅, 杨伟, 张佳, 顾津瑞, 李平平, 耿路峰. 基于新型半监督分割框架的齿轮钢残余奥氏体测量方法[J]. 轨道交通材料, 2026. (已录用).</div>
+  <div data-format="bibtex">@article{deng2026semi,
+  title={基于新型半监督分割框架的齿轮钢残余奥氏体测量方法},
+  author={邓爽 and 李吉帅 and 杨伟 and 张佳 and 顾津瑞 and 李平平 and 耿路峰},
+  journal={轨道交通材料},
+  year={2026},
+  note={Accepted}
+}</div>
+</template>
 
-<style>
-    .cite-modal-overlay {
-        display: none;
-        position: fixed;
-        top: 0; left: 0;
-        width: 100%; height: 100%;
-        background: rgba(0,0,0,0.5);
-        z-index: 9999;
-        justify-content: center;
-        align-items: center;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    }
-    .cite-modal-overlay.active { display: flex; }
-    .cite-modal-box {
-        background: #fff;
-        border-radius: 12px;
-        max-width: 780px;
-        width: 92%;
-        max-height: 85vh;
-        box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-        animation: citeFadeIn 0.25s ease;
-    }
-    @keyframes citeFadeIn {
-        from { opacity: 0; transform: translateY(-20px) scale(0.96); }
-        to { opacity: 1; transform: translateY(0) scale(1); }
-    }
-    .cite-modal-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 18px 24px 10px 24px;
-        border-bottom: 1px solid #eaeef2;
-        flex-shrink: 0;
-    }
-    .cite-modal-header h3 { margin: 0; font-size: 18px; font-weight: 600; color: #1a1a2e; }
-    .cite-modal-close {
-        background: none; border: none;
-        font-size: 28px; color: #888; cursor: pointer;
-    }
-    .cite-modal-close:hover { color: #222; }
-    .cite-tabs {
-        display: flex;
-        padding: 0 24px;
-        border-bottom: 1px solid #eaeef2;
-        background: #f8fafc;
-        flex-shrink: 0;
-    }
-    .cite-tab-btn {
-        padding: 12px 18px 10px 18px;
-        background: none; border: none;
-        font-size: 15px; font-weight: 500;
-        color: #555; cursor: pointer;
-        border-bottom: 3px solid transparent;
-        transition: 0.2s;
-        margin-right: 6px;
-    }
-    .cite-tab-btn:hover { color: #1a1a2e; }
-    .cite-tab-btn.active {
-        color: #1a1a2e;
-        border-bottom-color: #2d7ee7;
-    }
-    .cite-modal-body {
-        padding: 20px 24px 28px 24px;
-        overflow-y: auto;
-        flex: 1;
-        background: #fff;
-    }
-    .cite-tab-pane { display: none; white-space: pre-wrap; word-break: break-word; font-size: 14px; line-height: 1.7; color: #1e1e2f; }
-    .cite-tab-pane.active { display: block; }
-    .cite-standard { font-family: "Georgia", "Times New Roman", serif; padding: 4px 0; }
-    .cite-standard .cite-label { font-weight: 600; color: #2d7ee7; font-family: -apple-system, sans-serif; font-size: 13px; display: inline-block; margin-bottom: 6px; }
-    .cite-bibtex {
-        font-family: "SF Mono", "Menlo", "Consolas", monospace;
-        font-size: 13px;
-        background: #f4f6f9;
-        padding: 16px 18px;
-        border-radius: 8px;
-        border: 1px solid #e2e8f0;
-        white-space: pre-wrap;
-        word-break: break-word;
-        position: relative;
-    }
-    .cite-copy-btn {
-        position: absolute;
-        top: 10px; right: 12px;
-        background: #eef2f6; border: none;
-        border-radius: 6px;
-        padding: 4px 14px;
-        font-size: 12px; font-weight: 500;
-        color: #334155; cursor: pointer;
-        transition: 0.2s;
-    }
-    .cite-copy-btn:hover { background: #dce2ea; }
-    .cite-copy-btn.copied { background: #d1fae5; color: #065f46; }
-    a.cite-link {
-        color: #2d7ee7;
-        text-decoration: none;
-        cursor: pointer;
-    }
-    a.cite-link:hover { text-decoration: underline; }
-    @media (max-width: 600px) {
-        .cite-modal-box { width: 96%; max-height: 90vh; }
-        .cite-modal-header { padding: 14px 16px 8px 16px; }
-        .cite-tabs { padding: 0 12px; }
-        .cite-tab-btn { padding: 10px 12px 8px 12px; font-size: 14px; }
-        .cite-modal-body { padding: 16px; }
-        .cite-bibtex { font-size: 12px; padding: 14px 12px; }
-        .cite-copy-btn { top: 6px; right: 8px; padding: 2px 10px; font-size: 11px; }
-    }
-</style>
+<template id="cite-tmm2025" data-title="Towards Semi-supervised Dual-modal Semantic Segmentation">
+  <div data-format="citation">Qiulei Dong, Jianan Li and Shuang Deng. Towards Semi-supervised Dual-modal Semantic Segmentation[J]. IEEE Transactions on Multimedia (TMM), 2025, 27: 8212-8224. doi: 10.1109/TMM.2025.3604939.</div>
+  <div data-format="bibtex">@article{dong2025towards,
+  title={Towards Semi-supervised Dual-modal Semantic Segmentation},
+  author={Dong, Qiulei and Li, Jianan and Deng, Shuang},
+  journal={IEEE Transactions on Multimedia},
+  volume={27},
+  pages={8212--8224},
+  year={2025},
+  doi={10.1109/TMM.2025.3604939}
+}</div>
+</template>
 
-<!-- 模态框 HTML -->
-<div id="citeModal" class="cite-modal-overlay" onclick="if(event.target===this) closeCite()">
-    <div class="cite-modal-box">
-        <div class="cite-modal-header">
-            <h3>📄 引用本文</h3>
-            <button class="cite-modal-close" onclick="closeCite()">&times;</button>
-        </div>
-        <div class="cite-tabs">
-            <button class="cite-tab-btn active" data-tab="standard" onclick="switchCiteTab('standard')">标准引用</button>
-            <button class="cite-tab-btn" data-tab="bibtex" onclick="switchCiteTab('bibtex')">BibTeX</button>
-        </div>
-        <div class="cite-modal-body">
-            <div class="cite-tab-pane active" id="citePane-standard">
-                <div class="cite-standard" id="citeStandardContent"></div>
-            </div>
-            <div class="cite-tab-pane" id="citePane-bibtex">
-                <div class="cite-bibtex">
-                    <button class="cite-copy-btn" onclick="copyBibtex()">复制</button>
-                    <span id="citeBibtexText"></span>
-                </div>
-            </div>
-        </div>
+<template id="cite-tip2024" data-title="Cayley Rotation Averaging: Multiple Camera Averaging Under the Cayley Framework">
+  <div data-format="citation">Qiulei Dong, Shuang Deng and Yuzhen Liu. Cayley Rotation Averaging: Multiple Camera Averaging Under the Cayley Framework[J]. IEEE Transactions on Image Processing (TIP), 2024, 33: 4173-4187. doi: 10.1109/TIP.2024.3416057.</div>
+  <div data-format="bibtex">@article{dong2024cayley,
+  title={Cayley Rotation Averaging: Multiple Camera Averaging Under the Cayley Framework},
+  author={Dong, Qiulei and Deng, Shuang and Liu, Yuzhen},
+  journal={IEEE Transactions on Image Processing},
+  volume={33},
+  pages={4173--4187},
+  year={2024},
+  doi={10.1109/TIP.2024.3416057}
+}</div>
+</template>
+
+<template id="cite-icra2022" data-title="Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds">
+  <div data-format="citation">Shuang Deng, Qiulei Dong, Bo Liu and Zhanyi Hu. Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds[C]//2022 International Conference on Robotics and Automation (ICRA). IEEE, 2022: 9214-9220. doi: 10.1109/ICRA46639.2022.9811904.</div>
+  <div data-format="bibtex">@inproceedings{deng2022superpoint,
+  title={Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds},
+  author={Deng, Shuang and Dong, Qiulei and Liu, Bo and Hu, Zhanyi},
+  booktitle={2022 International Conference on Robotics and Automation (ICRA)},
+  pages={9214--9220},
+  year={2022},
+  organization={IEEE},
+  doi={10.1109/ICRA46639.2022.9811904}
+}</div>
+</template>
+
+<template id="cite-spl2021" data-title="GA-NET: Global Attention Network for Point Cloud Semantic Segmentation">
+  <div data-format="citation">Shuang Deng and Qiulei Dong. GA-NET: Global Attention Network for Point Cloud Semantic Segmentation[J]. IEEE Signal Processing Letters (SPL), 2021, 28: 1300-1304. doi: 10.1109/LSP.2021.3082851.</div>
+  <div data-format="bibtex">@article{deng2021ganet,
+  title={GA-NET: Global Attention Network for Point Cloud Semantic Segmentation},
+  author={Deng, Shuang and Dong, Qiulei},
+  journal={IEEE Signal Processing Letters},
+  volume={28},
+  pages={1300--1304},
+  year={2021},
+  doi={10.1109/LSP.2021.3082851}
+}</div>
+</template>
+
+<template id="cite-icme2021" data-title="Rotation Transformation Network: Learning View-Invariant Point Cloud for Classification and Segmentation">
+  <div data-format="citation">Shuang Deng, Bo Liu, Qiulei Dong and Zhanyi Hu. Rotation Transformation Network: Learning View-Invariant Point Cloud for Classification and Segmentation[C]//2021 IEEE International Conference on Multimedia and Expo (ICME). IEEE, 2021: 1-6. doi: 10.1109/ICME51207.2021.9428265.</div>
+  <div data-format="bibtex">@inproceedings{deng2021rotation,
+  title={Rotation Transformation Network: Learning View-Invariant Point Cloud for Classification and Segmentation},
+  author={Deng, Shuang and Liu, Bo and Dong, Qiulei and Hu, Zhanyi},
+  booktitle={2021 IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={1--6},
+  year={2021},
+  organization={IEEE},
+  doi={10.1109/ICME51207.2021.9428265}
+}</div>
+</template>
+
+<template id="cite-aca2020" data-title="一种基于双目视觉的卫星相对位姿测量方法">
+  <div data-format="citation">邓爽, 王波, 董秋雷. 一种基于双目视觉的卫星相对位姿测量方法[J]. 空间控制技术与应用, 2020, 46(6): 50-55. doi: 10.3969/j.issn.1674-1579.2020.06.007.</div>
+  <div data-format="bibtex">@article{deng2020binocular,
+  title={一种基于双目视觉的卫星相对位姿测量方法},
+  author={邓爽 and 王波 and 董秋雷},
+  journal={空间控制技术与应用},
+  volume={46},
+  number={6},
+  pages={50--55},
+  year={2020},
+  doi={10.3969/j.issn.1674-1579.2020.06.007}
+}</div>
+</template>
+
+<!-- One shared modal is reused by all Cite buttons. -->
+<div id="cite-modal" class="cite-modal" aria-hidden="true">
+  <div class="cite-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="cite-modal-title">
+    <button type="button" class="cite-modal__close" aria-label="Close citation window">&times;</button>
+    <h3 id="cite-modal-title" class="cite-modal__title">Citation</h3>
+
+    <div class="cite-tabs" role="tablist" aria-label="Citation formats">
+      <button type="button" class="cite-tab is-active" role="tab" aria-selected="true" aria-controls="cite-panel-citation" data-format="citation">Citation</button>
+      <button type="button" class="cite-tab" role="tab" aria-selected="false" aria-controls="cite-panel-bibtex" data-format="bibtex">BibTeX</button>
     </div>
+
+    <div id="cite-panel-citation" class="cite-panel is-active" role="tabpanel">
+      <pre><code></code></pre>
+    </div>
+    <div id="cite-panel-bibtex" class="cite-panel" role="tabpanel" hidden>
+      <pre><code></code></pre>
+    </div>
+
+    <button type="button" class="cite-copy">Copy</button>
+  </div>
 </div>
 
+<style>
+  .cite-trigger {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: #52adc8;
+    font: inherit;
+    line-height: inherit;
+    cursor: pointer;
+  }
+
+  .cite-trigger:hover,
+  .cite-trigger:focus {
+    text-decoration: underline;
+  }
+
+  .cite-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.55);
+  }
+
+  .cite-modal.is-open {
+    display: flex;
+  }
+
+  .cite-modal__dialog {
+    position: relative;
+    width: min(760px, 100%);
+    max-height: 85vh;
+    overflow: auto;
+    padding: 1.25rem;
+    border-radius: 8px;
+    background: #fff;
+    color: #222;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.25);
+  }
+
+  .cite-modal__title {
+    margin: 0 2rem 1rem 0;
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+
+  .cite-modal__close {
+    position: absolute;
+    top: 0.65rem;
+    right: 0.8rem;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: #666;
+    font-size: 1.8rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .cite-tabs {
+    display: flex;
+    gap: 0.25rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .cite-tab {
+    padding: 0.55rem 0.9rem;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    background: none;
+    color: #666;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .cite-tab.is-active {
+    border-bottom-color: #52adc8;
+    color: #222;
+    font-weight: 600;
+  }
+
+  .cite-panel pre {
+    max-height: 42vh;
+    margin: 1rem 0;
+    padding: 1rem;
+    overflow: auto;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    background: #f7f7f7;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  .cite-panel code {
+    padding: 0;
+    background: transparent;
+    color: inherit;
+    font-size: 0.82rem;
+  }
+
+  .cite-copy {
+    padding: 0.45rem 0.85rem;
+    border: 1px solid #52adc8;
+    border-radius: 4px;
+    background: #52adc8;
+    color: #fff;
+    font: inherit;
+    cursor: pointer;
+  }
+
+  body.cite-modal-open {
+    overflow: hidden;
+  }
+
+  @media (max-width: 600px) {
+    .cite-modal__dialog {
+      padding: 1rem;
+    }
+  }
+</style>
+
 <script>
-// =============== 论文引用数据 ===============
-const PAPERS = {
-    MRTS2026: {
-        standard: '邓爽, 李吉帅, 杨伟, 张佳, 顾津瑞, 李平平, 耿路峰. 基于新型半监督分割框架的齿轮钢残余奥氏体测量方法[J]. 轨道交通材料, 2026.',
-        bibtex: `@article{deng2026mrts,\n  title={基于新型半监督分割框架的齿轮钢残余奥氏体测量方法},\n  author={邓爽 and 李吉帅 and 杨伟 and 张佳 and 顾津瑞 and 李平平 and 耿路峰},\n  journal={轨道交通材料},\n  year={2026}\n}`
-    },
-    TMM2025: {
-        standard: 'Qiulei Dong, Jianan Li, Shuang Deng. Towards semi-supervised dual-modal semantic segmentation[J]. IEEE Transactions on Multimedia, 2025.',
-        bibtex: `@article{dong2025tmm,\n  title={Towards Semi-supervised Dual-modal Semantic Segmentation},\n  author={Dong, Qiulei and Li, Jianan and Deng, Shuang},\n  journal={IEEE Transactions on Multimedia},\n  year={2025}\n}`
-    },
-    TIP2024: {
-        standard: 'Qiulei Dong, Shuang Deng, Yuzhen Liu. Cayley rotation averaging: Multiple camera averaging under the cayley framework[J]. IEEE Transactions on Image Processing (TIP), 2024, 33: 4173-4187. doi: 10.1109/TIP.2024.3416057.',
-        bibtex: `@article{dong2024tip,\n  title={Cayley Rotation Averaging: Multiple Camera Averaging Under the Cayley Framework},\n  author={Dong, Qiulei and Deng, Shuang and Liu, Yuzhen},\n  journal={IEEE Transactions on Image Processing},\n  volume={33},\n  pages={4173--4187},\n  year={2024},\n  doi={10.1109/TIP.2024.3416057}\n}`
-    },
-    ICRA2022: {
-        standard: 'Shuang Deng, Qiulei Dong, Bo Liu, Zhanyi Hu. Superpoint-guided semi-supervised semantic segmentation of 3D point clouds[C]//2022 International conference on robotics and automation (ICRA). IEEE, 2022: 9214-9220. doi: 10.1109/ICRA46639.2022.9811904.',
-        bibtex: `@inproceedings{deng2022icra,\n  title={Superpoint-guided Semi-supervised Semantic Segmentation of 3D Point Clouds},\n  author={Deng, Shuang and Dong, Qiulei and Liu, Bo and Hu, Zhanyi},\n  booktitle={2022 International Conference on Robotics and Automation (ICRA)},\n  pages={9214--9220},\n  year={2022},\n  doi={10.1109/ICRA46639.2022.9811904}\n}`
-    },
-    SPL2021: {
-        standard: 'Shuang Deng, Qiulei Dong. GA-NET: Global attention network for point cloud semantic segmentation[J]. IEEE Signal Processing Letters (SPL), 2021.',
-        bibtex: `@article{deng2021spl,\n  title={GA-NET: Global Attention Network for Point Cloud Semantic Segmentation},\n  author={Deng, Shuang and Dong, Qiulei},\n  journal={IEEE Signal Processing Letters},\n  year={2021}\n}`
-    },
-    ICME2021: {
-        standard: 'Shuang Deng, Bo Liu, Qiulei Dong, Zhanyi Hu. Rotation transformation network: Learning view-invariant point cloud for classification and segmentation[C]//2021 IEEE International Conference on Multimedia and Expo (ICME). IEEE, 2021.',
-        bibtex: `@inproceedings{deng2021icme,\n  title={Rotation Transformation Network: Learning View-Invariant Point Cloud for Classification and Segmentation},\n  author={Deng, Shuang and Liu, Bo and Dong, Qiulei and Hu, Zhanyi},\n  booktitle={2021 IEEE International Conference on Multimedia and Expo (ICME)},\n  year={2021}\n}`
-    },
-    Patent2021: {
-        standard: '董秋雷, 邓爽, 王波. 基于目标物对接环的对接设备位姿调整方法、系统[P]. 2021.',
-        bibtex: `@patent{dong2021patent,\n  title={基于目标物对接环的对接设备位姿调整方法、系统},\n  author={董秋雷 and 邓爽 and 王波},\n  year={2021}\n}`
-    },
-    ACA2020: {
-        standard: '邓爽, 王波, 董秋雷. 一种基于双目视觉的卫星相对位姿测量方法[J]. 空间控制技术与应用, 2020.',
-        bibtex: `@article{deng2020aca,\n  title={一种基于双目视觉的卫星相对位姿测量方法},\n  author={邓爽 and 王波 and 董秋雷},\n  journal={空间控制技术与应用},\n  year={2020}\n}`
+  document.addEventListener("DOMContentLoaded", function () {
+    const modal = document.getElementById("cite-modal");
+    const modalTitle = document.getElementById("cite-modal-title");
+    const closeButton = modal.querySelector(".cite-modal__close");
+    const copyButton = modal.querySelector(".cite-copy");
+    const tabs = Array.from(modal.querySelectorAll(".cite-tab"));
+    const panels = {
+      citation: document.getElementById("cite-panel-citation"),
+      bibtex: document.getElementById("cite-panel-bibtex")
+    };
+    let activeFormat = "citation";
+    let lastFocusedElement = null;
+
+    function switchTab(format) {
+      activeFormat = format;
+      tabs.forEach(function (tab) {
+        const isActive = tab.dataset.format === format;
+        tab.classList.toggle("is-active", isActive);
+        tab.setAttribute("aria-selected", String(isActive));
+      });
+      Object.keys(panels).forEach(function (key) {
+        const isActive = key === format;
+        panels[key].classList.toggle("is-active", isActive);
+        panels[key].hidden = !isActive;
+      });
+      copyButton.textContent = "Copy";
     }
-};
 
-// =============== 核心逻辑 ===============
-let currentPaperId = null;
-let currentTab = 'standard';
+    function openModal(templateId) {
+      const source = document.getElementById(templateId);
+      if (!source || !source.content) return;
 
-function showCite(paperId) {
-    const paper = PAPERS[paperId];
-    if (!paper) return;
-    currentPaperId = paperId;
-    currentTab = 'standard';
-    document.getElementById('citeStandardContent').innerHTML = '<span class="cite-label">📖 标准引用</span><br><span class="cite-text">' + paper.standard + '</span>';
-    document.getElementById('citeBibtexText').textContent = paper.bibtex;
-    document.querySelectorAll('.cite-tab-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.tab === 'standard'));
-    document.getElementById('citePane-standard').classList.add('active');
-    document.getElementById('citePane-standard').style.display = 'block';
-    document.getElementById('citePane-bibtex').classList.remove('active');
-    document.getElementById('citePane-bibtex').style.display = 'none';
-    document.querySelector('.cite-copy-btn').textContent = '复制';
-    document.querySelector('.cite-copy-btn').classList.remove('copied');
-    document.getElementById('citeModal').classList.add('active');
-    document.body.style.overflow = 'hidden';
-}
+      modalTitle.textContent = source.dataset.title || "Citation";
+      Object.keys(panels).forEach(function (format) {
+        const textSource = source.content.querySelector('[data-format="' + format + '"]');
+        panels[format].querySelector("code").textContent = textSource ? textSource.textContent.trim() : "";
+      });
 
-function closeCite() {
-    document.getElementById('citeModal').classList.remove('active');
-    document.body.style.overflow = '';
-}
+      lastFocusedElement = document.activeElement;
+      switchTab("citation");
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("cite-modal-open");
+      closeButton.focus();
+    }
 
-function switchCiteTab(tab) {
-    if (tab === currentTab) return;
-    currentTab = tab;
-    document.querySelectorAll('.cite-tab-btn').forEach(btn => {
-        const isActive = btn.dataset.tab === tab;
-        btn.classList.toggle('active', isActive);
+    function closeModal() {
+      modal.classList.remove("is-open");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("cite-modal-open");
+      if (lastFocusedElement) lastFocusedElement.focus();
+    }
+
+    function fallbackCopy(text) {
+      const textarea = document.createElement("textarea");
+      textarea.value = text;
+      textarea.style.position = "fixed";
+      textarea.style.opacity = "0";
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      textarea.remove();
+    }
+
+    document.querySelectorAll(".cite-trigger").forEach(function (button) {
+      button.addEventListener("click", function () {
+        openModal(button.dataset.citeId);
+      });
     });
-    const sp = document.getElementById('citePane-standard');
-    const bp = document.getElementById('citePane-bibtex');
-    if (tab === 'standard') {
-        sp.classList.add('active'); sp.style.display = 'block';
-        bp.classList.remove('active'); bp.style.display = 'none';
-    } else {
-        bp.classList.add('active'); bp.style.display = 'block';
-        sp.classList.remove('active'); sp.style.display = 'none';
-    }
-}
 
-function copyBibtex() {
-    const text = document.getElementById('citeBibtexText').textContent;
-    if (!text) return;
-    if (navigator.clipboard) {
-        navigator.clipboard.writeText(text).then(() => showCopySuccess()).catch(() => fallbackCopy(text));
-    } else {
-        fallbackCopy(text);
-    }
-}
-
-function fallbackCopy(text) {
-    const ta = document.createElement('textarea');
-    ta.value = text;
-    ta.style.position = 'fixed'; ta.style.left = '-9999px';
-    document.body.appendChild(ta);
-    ta.select();
-    try { document.execCommand('copy'); showCopySuccess(); } catch(e) { alert('复制失败，请手动复制。'); }
-    document.body.removeChild(ta);
-}
-
-function showCopySuccess() {
-    const btn = document.querySelector('.cite-copy-btn');
-    if (btn) {
-        btn.textContent = '✅ 已复制';
-        btn.classList.add('copied');
-        setTimeout(() => { btn.textContent = '复制'; btn.classList.remove('copied'); }, 2000);
-    }
-}
-
-document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeCite(); });
-
-// 页面加载完成后，自动为每个 [PDF] 链接后面添加 [Cite]
-document.addEventListener('DOMContentLoaded', function() {
-    const titleMap = {};
-    Object.keys(PAPERS).forEach(id => {
-        const p = PAPERS[id];
-        // 用原始标题去匹配（去掉首尾空格）
-        const clean = p.standard.split('[')[0]?.trim() || '';
-        // 但更可靠的匹配是直接用 PDF 文件名或标题强匹配；这里我们直接用标准引用中的第一个句号前的部分作为匹配依据（简化）
-        // 更好的方法：通过链接的 href 中的文件名匹配
+    tabs.forEach(function (tab) {
+      tab.addEventListener("click", function () {
+        switchTab(tab.dataset.format);
+      });
     });
-    // 实际匹配策略：根据 PDF 链接的 href 文件名（如 /publications/ICRA2022.pdf）提取 ID
-    document.querySelectorAll('.column.right p a').forEach(a => {
-        const href = a.getAttribute('href') || '';
-        if (!/\.pdf/i.test(href)) return;
-        // 检查是否已经添加了 Cite
-        let parent = a.parentNode;
-        let next = a.nextSibling;
-        while (next) {
-            if (next.nodeType === 1 && next.tagName === 'A' && next.textContent.trim() === 'Cite') return;
-            if (next.nodeType === 3 && next.textContent && next.textContent.includes('Cite')) return;
-            next = next.nextSibling;
-        }
-        // 从 href 中提取 ID (如 ICRA2022, TIP2024 等)
-        const match = href.match(/\/([A-Za-z0-9]+)\.pdf/i);
-        if (!match || !match[1]) return;
-        const paperId = match[1];
-        if (!PAPERS[paperId]) return;
 
-        // 插入 [Cite] 链接
-        const citeLink = document.createElement('a');
-        citeLink.href = 'javascript:void(0)';
-        citeLink.className = 'cite-link';
-        citeLink.textContent = 'Cite';
-        citeLink.setAttribute('onclick', "showCite('" + paperId + "')");
-        const space = document.createTextNode(' ');
-        const openB = document.createTextNode('[');
-        const closeB = document.createTextNode(']');
-        parent.insertBefore(space, a.nextSibling);
-        parent.insertBefore(openB, a.nextSibling);
-        parent.insertBefore(citeLink, a.nextSibling);
-        parent.insertBefore(closeB, a.nextSibling);
+    copyButton.addEventListener("click", function () {
+      const text = panels[activeFormat].querySelector("code").textContent;
+      const copyPromise = navigator.clipboard && window.isSecureContext
+        ? navigator.clipboard.writeText(text).catch(function () { fallbackCopy(text); })
+        : Promise.resolve(fallbackCopy(text));
+
+      copyPromise.then(function () {
+        copyButton.textContent = "Copied!";
+        window.setTimeout(function () {
+          copyButton.textContent = "Copy";
+        }, 1200);
+      });
     });
-});
+
+    closeButton.addEventListener("click", closeModal);
+    modal.addEventListener("click", function (event) {
+      if (event.target === modal) closeModal();
+    });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && modal.classList.contains("is-open")) closeModal();
+    });
+  });
 </script>
-
-{:/nomarkdown}
