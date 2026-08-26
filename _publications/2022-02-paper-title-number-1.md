@@ -5,6 +5,7 @@ link: 'https://ieeexplore.ieee.org/document/9811904'
 date: 2022-02-01
 venue: 'IEEE International Conference on Robotics and Automation (ICRA)'
 paperurl: 'http://ds0529.github.io/files/ICRA2022.pdf'
+citation_key: icra2022
 ---
 
 Authors: <u>Shuang Deng</u>, Qiulei Dong, Bo Liu, Zhanyi Hu
@@ -14,4 +15,6 @@ Authors: <u>Shuang Deng</u>, Qiulei Dong, Bo Liu, Zhanyi Hu
 <p>Download <a href='http://ds0529.github.io/files/publications/ICRA2022.pdf'>here</a></p>
 
 <p><a href='https://github.com/ds0529/SSS-Net'>Code</a></p>
+
+<p>Cite {% include cite-link.html key=page.citation_key label="here" %}</p>
 
