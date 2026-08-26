@@ -5,6 +5,7 @@ link: 'https://kns.cnki.net/kcms2/article/abstract?v=RM9JFOVmTL8Ql_MUZlHUNvQYw7d
 date: 2026-06-05
 venue: 'Materials for Rail Transportation System (轨道交通材料, MRTS)'
 paperurl: 'http://ds0529.github.io/files/MRTS2026.pdf'
+citation_key: mrts2026
 ---
 
 Authors: <u>邓爽</u>，李吉帅，杨伟，张佳，顾津瑞，李平平，耿路峰
@@ -12,3 +13,5 @@ Authors: <u>邓爽</u>，李吉帅，杨伟，张佳，顾津瑞，李平平，�
 Abstract: 残余奥氏体作为影响齿轮钢硬度、耐磨性和尺寸稳定性的关键组织，其含量的准确量化对热处理工艺优化、产品质量控制及服役性能预测至关重要。针对传统测定残余奥氏体含量方法（如X射线衍射）依赖昂贵设备且难以实现微观组织分布的可视化定量分析的问题，提出一种先进的深度学习框架自动识别并量化齿轮钢金相图像中的残余奥氏体区域。首先，构建面向齿轮钢金相组织的语义分割图像数据集，并完成像素级精细标注；针对残余奥氏体分布细粒度高的问题，提出基于滑动窗口裁剪的图像预处理方法；针对标注数据稀缺的行业痛点，提出一种新型的半监督学习方法，即增强版混合匹配算法（MixMatch++），通过伪标签融合生成、低置信度图像筛选和混合数据增强机制，显著提升小样本条件下的分割精度。最后，设计一种加权DiceLoss损失函数，以增强网络对语义模糊像素的关注能力。实验结果表明，该框架能够为残余奥氏体的定量分析提供一种高效且可靠的解决方案，从而为齿轮钢热处理工艺优化提供高效、低成本的智能检测手段。
 
 <p>Download <a href='http://ds0529.github.io/files/publications/MRTS2026.pdf'>here</a></p>
+
+<p>Cite {% include cite-link.html key=page.citation_key label="here" %}</p>
